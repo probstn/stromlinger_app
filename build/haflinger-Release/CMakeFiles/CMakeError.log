@@ -1,0 +1,10 @@
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /opt/cross-pi-gcc/bin/aarch64-linux-gnu-g++ 
+Build flags: ;-isystem=/usr/include;-isystem=/usr/local/include;-isystem=/usr/include/aarch64-linux-gnu
+Id flags: -c;--target=aarch64-linux-gnu 
+
+The output was:
+1
+aarch64-linux-gnu-g++: error: unrecognized command-line option ‘--target=aarch64-linux-gnu’
+
+

@@ -1,0 +1,15 @@
+-rootPath
+/home/niklas/stromlinger
+-cmake-output
+-output-file
+/home/niklas/stromlinger/build/haflinger-Debug/.qt/qml_imports/stromlingerApp_build.cmake
+-importPath
+/home/niklas/stromlinger/build/haflinger-Debug/qml/Main
+-importPath
+/home/niklas/stromlinger/build/haflinger-Debug/qml
+-importPath
+/home/niklas/haflinger/qt-raspi/qml
+-qrcFiles
+/home/niklas/stromlinger/build/haflinger-Debug/.qt/rcc/configuration.qrc
+/home/niklas/stromlinger/build/haflinger-Debug/.qt/rcc/qmake_Main.qrc
+/home/niklas/stromlinger/build/haflinger-Debug/.qt/rcc/stromlingerApp_raw_qml_0.qrc

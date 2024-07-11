@@ -1,0 +1,8 @@
+module Data
+linktarget Dataplugin
+optional plugin Dataplugin
+classname DataPlugin
+typeinfo Data.qmltypes
+prefer :/qt/qml/Data/
+singleton Values 1.0 Values.qml
+

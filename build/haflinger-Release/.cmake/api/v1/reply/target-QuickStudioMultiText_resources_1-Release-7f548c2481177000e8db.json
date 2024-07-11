@@ -1,0 +1,242 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/ds-build/src/imports/multitext/CMakeFiles/QuickStudioMultiText_resources_1.dir/./.qt/rcc/qrc_qmake_QtQuick_Studio_MultiText_init.cpp.o"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"qt6_add_qml_module",
+			"target_compile_definitions",
+			"set_property",
+			"_qt_internal_copy_dependency_properties",
+			"__qt_internal_propagate_object_library",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"build/haflinger-Release/_deps/ds-src/src/imports/multitext/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 2
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 590,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 337,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2390,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1951,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 1964,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1995,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 1893,
+				"parent" : 7
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2765,
+				"parent" : 8
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 1967,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 2765,
+				"parent" : 8
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -isystem=/usr/include -isystem=/usr/local/include -isystem=/usr/include/aarch64-linux-gnu -O2 -pipe"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_QMLBUILTINS_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "QT_QML_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtCore"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-build/src/imports/multitext/QuickStudioMultiText_autogen/include"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/multitext"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtQml/6.7.1"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtQml/6.7.1/QtQml"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtCore/6.7.1"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtCore/6.7.1/QtCore"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtQmlBuiltins/6.7.1"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtQmlBuiltins/6.7.1/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtQmlBuiltins"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtQml"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "/home/niklas/haflinger/qt-raspi/include/QtNetwork"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/home/niklas/haflinger/qt-raspi/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/home/niklas/haflinger/qt-raspi/mkspecs/devices/linux-rasp-pi4-aarch64"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/niklas/haflinger/rpi-sysroot"
+			}
+		}
+	],
+	"id" : "QuickStudioMultiText_resources_1::@a7b8d61f767e497853c2",
+	"name" : "QuickStudioMultiText_resources_1",
+	"paths" : 
+	{
+		"build" : "_deps/ds-build/src/imports/multitext",
+		"source" : "build/haflinger-Release/_deps/ds-src/src/imports/multitext"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/multitext/.qt/rcc/qrc_qmake_QtQuick_Studio_MultiText_init.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

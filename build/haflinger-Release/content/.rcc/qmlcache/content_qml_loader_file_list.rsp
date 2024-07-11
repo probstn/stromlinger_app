@@ -1,0 +1,11 @@
+--resource
+/home/niklas/stromlinger/build/haflinger-Release/content/.qt/rcc/qmake_content.qrc
+--resource
+/home/niklas/stromlinger/build/haflinger-Release/content/.qt/rcc/content_raw_qml_0.qrc
+/qt/qml/content/App.qml
+/qt/qml/content/cluster/qml/Background.ui.qml
+/qt/qml/content/cluster/qml/Cluster.ui.qml
+/qt/qml/content/cluster/qml/CustomDot.qml
+/qt/qml/content/cluster/qml/FuelDial.ui.qml
+/qt/qml/content/cluster/qml/RpmDial.ui.qml
+/qt/qml/content/cluster/qml/SpeedDial.ui.qml

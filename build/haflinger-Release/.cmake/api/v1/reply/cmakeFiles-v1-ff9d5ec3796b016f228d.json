@@ -1,0 +1,5756 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/.qtc/package-manager/auto-setup.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/qt.toolchain.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/toolchain.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeSystem.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/CMakeFiles/3.22.1/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/qt.toolchain.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/toolchain.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeNinjaFindMake.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeDetermineCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeDetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Linux-Determine-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeDetermineCompilerId.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCompilerIdDetection.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/ADSP-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/ARMClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Cray-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Embarcadero-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Fujitsu-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IAR-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Intel-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/MSVC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/NVHPC-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/NVIDIA-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/PGI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/PathScale-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/SCO-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/TI-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/Watcom-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-FindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeTestCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeDetermineCompilerABI.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeParseImplicitIncludeInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeParseImplicitLinkInfo.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeParseLibraryArchitecture.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeTestCompilerCommon.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeDetermineCompileFeatures.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCXXCompiler.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtFeature.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtFeatureCommon.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicAppleHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicTestHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicToolHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6Dependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6HostInfo/Qt6HostInfoConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckIncludeFile.cxx.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/FindWrapAtomic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6CoreTools/Qt6CoreToolsTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6CoreTools/Qt6CoreToolsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6CoreTools/Qt6CoreToolsVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreMacros.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/QtInstallPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6GuiConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/FindGLESv2.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6DBus/Qt6DBusConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6DBus/Qt6DBusConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6DBus/Qt6DBusConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6DBus/Qt6DBusDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6DBusTools/Qt6DBusToolsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6DBusTools/Qt6DBusToolsDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6DBusTools/Qt6DBusToolsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6DBusTools/Qt6DBusToolsVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6DBus/Qt6DBusTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6DBus/Qt6DBusTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6DBus/Qt6DBusAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6DBus/Qt6DBusVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6DBus/Qt6DBusMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/MacroAddFileDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6GuiTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6GuiAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QComposePlatformInputContextPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSEmulatorIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEglFSX11IntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevMousePluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QEvdevTouchScreenPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QGifPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QGifPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QGifPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QICNSPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QICNSPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QICOPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QICOPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QICOPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QICOPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QJpegPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QJpegPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QLibInputPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QLibInputPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QLibInputPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QMinimalEglIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QSvgIconPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QSvgIconPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QSvgIconPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QSvgPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTgaPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTgaPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTiffPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTiffPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTsLibPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTsLibPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QVncIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QWbmpPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QWbmpPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QWbmpPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QWebpPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXcbEglIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXcbIntegrationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QmlTools/Qt6QmlToolsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QmlTools/Qt6QmlToolsDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QmlTools/Qt6QmlToolsTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QmlTools/Qt6QmlToolsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QmlTools/Qt6QmlToolsVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlIntegration/Qt6QmlIntegrationVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlBuiltins/Qt6QmlBuiltinsVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkPlugins.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QGlibNetworkInformationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QNetworkManagerNetworkInformationPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QTlsBackendCertOnlyPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlFindQmlscInternal.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPlugins.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlMetaConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlMetaTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlMetaTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlMetaAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_scxmlConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_scxmlTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_scxmlTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_scxmlAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6grpcquickpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6grpcquickpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6grpcquickpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6grpcquickpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Config.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2AdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtlabsplatformpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtlabsplatformpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtlabsplatformpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtlabsplatformpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlstatemachineConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlstatemachineTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlstatemachineTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlstatemachineAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dphysicshelperspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dphysicshelperspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dphysicshelperspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dphysicshelperspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbbuiltinstylespluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbbuiltinstylespluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbbuiltinstylespluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbbuiltinstylespluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhangulpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhangulpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhangulpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhangulpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbopenwnnpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbopenwnnpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbopenwnnpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbopenwnnpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpinyinpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpinyinpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpinyinpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpinyinpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbsettingspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbsettingspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbsettingspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbsettingspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbstylespluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbstylespluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbstylespluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbstylespluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbtcimepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbtcimepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbtcimepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbtcimepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbthaipluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbthaipluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbthaipluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbthaipluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3danimationpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3danimationpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3danimationpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3danimationpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dcorepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dcorepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dcorepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dcorepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dextraspluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dextraspluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dextraspluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dextraspluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dinputpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dinputpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dinputpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dinputpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dlogicpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dlogicpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dlogicpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dlogicpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3drenderpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3drenderpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3drenderpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3drenderpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DeclarativeOpcuapluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6GraphspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlMetaConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QmlNetworkpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickControlsTestUtilsPrivatepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6QuickTestpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6SensorsQuickpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6TextToSpeechQmlConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6WebChannelQuickpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_locationConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_remoteobjectsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6declarative_scxmlConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6effectspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6grpcquickpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsanimationpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6labsmodelspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6lottieqtpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6modelspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6particlespluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6positioningquickpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlfolderlistmodelpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmllocalstoragepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlsettingspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlshapespluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwavefrontmeshpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlwebsocketsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qmlxmllistmodelpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dphysicspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquick3dpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qquicklayoutspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtchartsqml2Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtgraphicaleffectsprivateConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtlabsplatformpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlcorepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtqmlstatemachineConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick2pluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dassetutilspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3deffectpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelpersimplpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dhelperspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticleeffectspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dparticles3dpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquick3dphysicshelperspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstyleimplpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2basicstylepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstyleimplpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2fusionstylepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestyleimplpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2imaginestylepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2implpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstyleimplpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2materialstylepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2nativestylepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2pluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstyleimplpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickcontrols2universalstylepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogs2quickimplpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickdialogspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene2dpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquickscene3dpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktemplates2pluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelineblendtreespluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtquicktimelinepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbbuiltinstylespluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbcomponentspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbhangulpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkblayoutspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbopenwnnpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpinyinpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbpluginspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbsettingspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbstylespluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbtcimepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtvkbthaipluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6qtwebviewquickpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3danimationpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dcorepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dextraspluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dinputpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dlogicpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3drenderpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quick3dspatialaudioConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickmultimediaConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quicktoolingConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6quickwindowConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6sharedimagepluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6workerscriptpluginConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QDebugMessageServiceFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QLocalClientConnectionFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlDebugServerFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlDebuggerServiceFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlInspectorServiceFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugConnectorFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlNativeDebugServiceFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlPreviewServiceFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQmlProfilerServiceFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQuick3DProfilerAdapterFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QQuickProfilerAdapterFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QTcpServerConnectionFactoryPluginAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QuickTools/Qt6QuickToolsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QuickTools/Qt6QuickToolsDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QuickTools/Qt6QuickToolsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlModels/Qt6QmlModelsConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlModels/Qt6QmlModelsDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlModels/Qt6QmlModelsTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlModels/Qt6QmlModelsTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlModels/Qt6QmlModelsAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlModels/Qt6QmlModelsVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickVersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickPlugins.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortDependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortTargets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortAdditionalTargetInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortVersionlessTargets.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "qmlcomponents"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FetchContent.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FetchContent/CMakeLists.cmake.in"
+		},
+		{
+			"path" : "qmlmodules"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"path" : "insight"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/.qt/qml_imports/stromlingerApp_conf.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakePrintHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6ConfigExtras.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6Targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6VersionlessTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtFeature.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtFeatureCommon.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicAppleHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicTestHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicToolHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt6Dependencies.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-host/lib/cmake/Qt6HostInfo/Qt6HostInfoConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6BuildInternals/Qt6BuildInternalsConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6BuildInternals/Qt6BuildInternalsConfigVersionImpl.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6BuildInternals/Qt6BuildInternalsConfig.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6BuildInternals/QtBuildInternalsExtra.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtBuildHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakeFindBinUtils.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FeatureSummary.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/Qt3rdPartyLibraryHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtAndroidHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtAppHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtAutoDetectHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtAutogenHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtBuildInformation.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtBuildOptionsHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtBuildPathsHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtBuildRepoExamplesHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtBuildRepoHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtCMakeHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtDbusHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtDeferredDependenciesHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtDocsHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtExecutableHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtFindPackageHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtFlagHandlingHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtFrameworkHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtGlobalStateHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtHeadersClean.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtInstallHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtJavaHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtLalrHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtMkspecHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtModuleHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtNoLinkTargetHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPkgConfigHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPlatformTargetHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPluginHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPostProcessHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPrecompiledHeadersHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPriHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPrlHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtQmakeHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtResourceHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtRpathHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtSanitizerHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtScopeFinalizerHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtSeparateDebugInfo.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtSimdHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtSingleRepoTargetSetBuildHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtSyncQtHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtTargetHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtTestHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtToolHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtToolchainHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtUnityBuildHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtWasmHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtWrapperScriptHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtFeature.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtFeatureCommon.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicAppleHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicPluginHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicTargetHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicTestHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicToolHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6/QtPlatformSupport.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/components/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/components/QuickStudioComponentsplugin_QtQuick_Studio_ComponentsPlugin_in.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/effects_qt6/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/effects_qt6/QuickStudioEffectsplugin_QtQuick_Studio_EffectsPlugin_in.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/flowview/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/flowview/FlowViewplugin_FlowViewPlugin_in.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/logichelper/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/logichelper/QuickStudioLogicHelperplugin_QtQuick_Studio_LogicHelperPlugin_in.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/multitext/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/multitext/QuickStudioMultiTextplugin_QtQuick_Studio_MultiTextPlugin_in.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/tools/CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/tools/eventsimulator/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/tools/eventsimulator/QuickStudioEventSimulatorplugin_QtQuick_Studio_EventSimulatorPlugin_in.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/tools/eventsystem/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/tools/eventsystem/QuickStudioEventSystemplugin_QtQuick_Studio_EventSystemPlugin_in.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/application/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/application/QuickStudioApplicationplugin_QtQuick_Studio_ApplicationPlugin_in.cpp"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-src/src/imports/utils/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/_deps/ds-build/src/imports/utils/QuickStudioUtilsplugin_QtQuick_Studio_UtilsPlugin_in.cpp"
+		},
+		{
+			"path" : "content/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/content/contentplugin_contentPlugin_in.cpp"
+		},
+		{
+			"path" : "imports/CMakeLists.txt"
+		},
+		{
+			"path" : "imports/stromlinger/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/imports/stromlinger/stromlingerplugin_stromlingerPlugin_in.cpp"
+		},
+		{
+			"path" : "imports/Data/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlPluginTemplate.cpp.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Core/Qt6CoreResourceInit.in.cpp"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/haflinger-Release/imports/Data/Dataplugin_DataPlugin_in.cpp"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/niklas/stromlinger/build/haflinger-Release",
+		"source" : "/home/niklas/stromlinger"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

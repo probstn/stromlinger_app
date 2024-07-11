@@ -1,0 +1,14 @@
+module content
+linktarget contentplugin
+optional plugin contentplugin
+classname contentPlugin
+typeinfo content.qmltypes
+prefer :/qt/qml/content/
+App 1.0 App.qml
+Background 1.0 cluster/qml/Background.ui.qml
+Cluster 1.0 cluster/qml/Cluster.ui.qml
+CustomDot 1.0 cluster/qml/CustomDot.qml
+FuelDial 1.0 cluster/qml/FuelDial.ui.qml
+RpmDial 1.0 cluster/qml/RpmDial.ui.qml
+SpeedDial 1.0 cluster/qml/SpeedDial.ui.qml
+

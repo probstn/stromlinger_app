@@ -1,0 +1,17 @@
+--bare
+-I
+/home/niklas/stromlinger/build/haflinger-Debug/qml
+-I
+/home/niklas/stromlinger/build/haflinger-Debug/qml
+-I
+/home/niklas/haflinger/qt-raspi/qml
+--resource
+/home/niklas/stromlinger/build/haflinger-Debug/imports/stromlinger/.qt/rcc/qmake_stromlinger.qrc
+--resource
+/home/niklas/stromlinger/build/haflinger-Debug/imports/stromlinger/.qt/rcc/stromlinger_raw_qml_0.qrc
+/home/niklas/stromlinger/imports/stromlinger/Constants.qml
+/home/niklas/stromlinger/imports/stromlinger/DirectoryFontLoader.qml
+/home/niklas/stromlinger/imports/stromlinger/EventListModel.qml
+/home/niklas/stromlinger/imports/stromlinger/EventListSimulator.qml
+--json
+/home/niklas/stromlinger/build/haflinger-Debug/stromlinger_qmllint.json

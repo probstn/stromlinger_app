@@ -1,0 +1,18 @@
+<RCC>
+  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/Components/">
+    <file alias="ArcItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/ArcItem.qml</file>
+    <file alias="PieItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/PieItem.qml</file>
+    <file alias="TriangleItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/TriangleItem.qml</file>
+    <file alias="SvgPathItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/SvgPathItem.qml</file>
+    <file alias="EllipseItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/EllipseItem.qml</file>
+    <file alias="FlipableItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/FlipableItem.qml</file>
+    <file alias="RectangleItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/RectangleItem.qml</file>
+    <file alias="RegularPolygonItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/RegularPolygonItem.qml</file>
+    <file alias="BorderItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/BorderItem.qml</file>
+    <file alias="IsoItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/IsoItem.qml</file>
+    <file alias="GroupItem.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/GroupItem.qml</file>
+    <file alias="ArcArrow.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/ArcArrow.qml</file>
+    <file alias="StraightArrow.qml">/home/niklas/stromlinger/build/haflinger-Release/_deps/ds-src/src/imports/components/StraightArrow.qml</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,3 @@
+repository='https://code.qt.io/qt-labs/qtquickdesigner-components.git'
+module=''
+tag='origin'

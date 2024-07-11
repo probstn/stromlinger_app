@@ -1,0 +1,5 @@
+--resource
+/home/niklas/stromlinger/build/haflinger-Release/imports/Data/.qt/rcc/qmake_Data.qrc
+--resource
+/home/niklas/stromlinger/build/haflinger-Release/imports/Data/.qt/rcc/Data_raw_qml_0.qrc
+/qt/qml/Data/Values.qml

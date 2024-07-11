@@ -1,0 +1,283 @@
+[
+    {
+        "classes": [
+            {
+                "classInfos": [
+                    {
+                        "name": "QML.Element",
+                        "value": "auto"
+                    }
+                ],
+                "className": "Backend",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "updateSpeed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "updateRpm",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "updateFuel",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "updateMisc",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "member": "m_rpm",
+                        "name": "rpm",
+                        "notify": "s_rpm",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "member": "m_displayRpm",
+                        "name": "displayRpm",
+                        "notify": "s_displayRpm",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "member": "m_kph",
+                        "name": "kph",
+                        "notify": "s_kph",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "member": "m_displayKph",
+                        "name": "displayKph",
+                        "notify": "s_displayKph",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "member": "m_displayKpl",
+                        "name": "displayKpl",
+                        "notify": "s_displayKpl",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "member": "m_liters",
+                        "name": "liters",
+                        "notify": "s_liters",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "member": "m_displayLiters",
+                        "name": "displayLiters",
+                        "notify": "s_displayLiters",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "member": "m_displayRange",
+                        "name": "displayRange",
+                        "notify": "s_displayRange",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "member": "m_currentGear",
+                        "name": "currentGear",
+                        "notify": "s_currentGear",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "member": "m_engineTemp",
+                        "name": "engineTemp",
+                        "notify": "s_engineTemp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "member": "m_fuelLevel",
+                        "name": "fuelLevel",
+                        "notify": "s_fuelLevel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "Backend",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "s_rpm",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_displayRpm",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_kph",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_displayKph",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_displayKpl",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_liters",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_displayLiters",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_displayRange",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_currentGear",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_engineTemp",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_fuelLevel",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "name": "demoSlot",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "name": "readSerialData",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "name": "processSerialData",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "backend.h",
+        "outputRevision": 68
+    }
+]
