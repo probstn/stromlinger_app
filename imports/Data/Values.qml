@@ -95,13 +95,6 @@ QtObject {
         interval: 1000
     }
 
-    property Timer kphTimer: Timer{
-        running: !values.booting
-        repeat: true
-        onTriggered: backend.updateSpeed();
-        interval: 1000
-    }
-
     property Timer litersTimer: Timer{
         running: !values.booting
         repeat: true

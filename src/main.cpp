@@ -1,6 +1,9 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
+#include <QCursor>
+#include <QScreen>
+#include <QQuickView>
 #include "backend.h"
 
 int main(int argc, char *argv[])
@@ -28,6 +31,17 @@ int main(int argc, char *argv[])
 
     if (engine.rootObjects().isEmpty())
         return -1;
+
+    // Get the root object (QQuickWindow)
+    QObject *rootObject = engine.rootObjects().first();
+    QQuickWindow *window = qobject_cast<QQuickWindow *>(rootObject);
+
+    if (window) {
+        // Hide the cursor
+        window->setCursor(Qt::BlankCursor);
+        // Set full-screen mode
+        window->showFullScreen();
+    }
 
     return app.exec();
 }

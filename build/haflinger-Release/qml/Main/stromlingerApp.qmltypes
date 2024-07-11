@@ -36,9 +36,17 @@ Module {
         Signal { name: "s_engineTemp" }
         Signal { name: "s_fuelLevel" }
         Method { name: "demoSlot" }
+        Method {
+            name: "handleSerialData"
+            Parameter { name: "data"; type: "QByteArray" }
+        }
         Method { name: "updateSpeed" }
         Method { name: "updateRpm" }
         Method { name: "updateFuel" }
         Method { name: "updateMisc" }
+        Method {
+            name: "writeSerialData"
+            Parameter { name: "data"; type: "QString" }
+        }
     }
 }

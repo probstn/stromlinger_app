@@ -28,6 +28,17 @@
                     "access": "public",
                     "name": "updateMisc",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "data",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "writeSerialData",
+                    "returnType": "void"
                 }
             ],
             "object": true,
@@ -252,19 +263,14 @@
                     "returnType": "void"
                 },
                 {
-                    "access": "private",
-                    "name": "readSerialData",
-                    "returnType": "void"
-                },
-                {
-                    "access": "private",
+                    "access": "public",
                     "arguments": [
                         {
                             "name": "data",
                             "type": "QByteArray"
                         }
                     ],
-                    "name": "processSerialData",
+                    "name": "handleSerialData",
                     "returnType": "void"
                 }
             ],

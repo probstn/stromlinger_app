@@ -5,6 +5,7 @@
 #include <QtQml>
 #include <QQmlApplicationEngine>
 #include <QSerialPort>
+#include "serial.h"
 
 class Backend : public QObject
 {
@@ -30,8 +31,11 @@ public:
     Q_INVOKABLE void updateFuel();
     Q_INVOKABLE void updateMisc();
 
+    Q_INVOKABLE void writeSerialData(const QString &data);
+
 public slots:
     void demoSlot();
+    void handleSerialData(const QByteArray &data);
 
 signals:
     void s_rpm();
@@ -59,7 +63,7 @@ private:
     bool m_engineTemp = false;
     bool m_fuelLevel = false;
 
-    QSerialPort *m_serialPort; // Serial port for reading data
+    Serial *m_serial; // Serial communication object
 };
 
 #endif // BACKEND_H

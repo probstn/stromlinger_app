@@ -1,1 +1,2 @@
 /home/niklas/stromlinger/build/haflinger-Release/stromlingerApp_autogen/include/../UVLADIE3JM/moc_backend.cpp.json
+/home/niklas/stromlinger/build/haflinger-Release/stromlingerApp_autogen/include/../UVLADIE3JM/moc_serial.cpp.json

@@ -1,15 +1,23 @@
 #include "backend.h"
+#include "serial.h"
 #include <QQmlComponent>
 #include <QQmlProperty>
 #include <QDebug>
 
 Backend::Backend(QObject *parent)
-    : QObject(parent)
+    : QObject(parent),
+    m_serial(new Serial(this))
 {
-    QObject::connect(this, &Backend::s_displayKph, this, &Backend::demoSlot); //here we connect the signalSpeed to the demoSlot to demonstrate how slots get activated if connected signals get emitted
+    QObject::connect(this, &Backend::s_displayKph, this, &Backend::demoSlot); // Connect signal to slot
+
+    // Connect serial data received signal to the handler slot
+    connect(m_serial, &Serial::dataReceived, this, &Backend::handleSerialData);
+
+    // Open serial port
+    if (!m_serial->openSerialPort()) {
+        qDebug() << "Failed to open serial port.";
+    }
 }
-
-
 
 void Backend::updateSpeed()
 {
@@ -33,7 +41,7 @@ void Backend::updateRpm()
 void Backend::updateFuel()
 {
     m_displayLiters = 100;
-    m_liters = m_displayLiters*10;
+    m_liters = m_displayLiters * 10;
     m_displayRange = 100;
 
     emit s_liters();
@@ -57,3 +65,17 @@ void Backend::demoSlot()
     qInfo() << "demo Slot activated";
 }
 
+void Backend::writeSerialData(const QString &data)
+{
+    QByteArray byteArray = data.toUtf8();
+    m_serial->writeData(byteArray);
+}
+
+void Backend::handleSerialData(const QByteArray &data)
+{
+    QString receivedData = QString::fromUtf8(data);
+    qDebug() << "Received serial data:" << receivedData;
+    // Handle the received data (e.g., update UI or process commands)
+    m_displayKph = receivedData.toInt();
+    emit s_displayKph();
+}

@@ -29,6 +29,17 @@
                         "access": "public",
                         "name": "updateMisc",
                         "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "writeSerialData",
+                        "returnType": "void"
                     }
                 ],
                 "object": true,
@@ -251,6 +262,17 @@
                         "access": "public",
                         "name": "demoSlot",
                         "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "name": "handleSerialData",
+                        "returnType": "void"
                     }
                 ],
                 "superClasses": [
@@ -262,6 +284,43 @@
             }
         ],
         "inputFile": "backend.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Serial",
+                "object": true,
+                "qualifiedClassName": "Serial",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "data",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "name": "dataReceived",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "name": "handleReadyRead",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "serial.h",
         "outputRevision": 68
     }
 ]

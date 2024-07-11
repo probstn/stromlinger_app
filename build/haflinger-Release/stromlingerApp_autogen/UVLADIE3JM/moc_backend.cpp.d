@@ -383,8 +383,10 @@
   /home/niklas/haflinger/qt-raspi/include/QtQmlIntegration/qqmlintegration.h \
   /home/niklas/haflinger/qt-raspi/include/QtQmlIntegration/qtqmlintegrationversion.h \
   /home/niklas/haflinger/qt-raspi/include/QtSerialPort/QSerialPort \
+  /home/niklas/haflinger/qt-raspi/include/QtSerialPort/QSerialPortInfo \
   /home/niklas/haflinger/qt-raspi/include/QtSerialPort/qserialport.h \
   /home/niklas/haflinger/qt-raspi/include/QtSerialPort/qserialportglobal.h \
+  /home/niklas/haflinger/qt-raspi/include/QtSerialPort/qserialportinfo.h \
   /home/niklas/haflinger/qt-raspi/include/QtSerialPort/qtserialportexports.h \
   /home/niklas/haflinger/rpi-sysroot/usr/include/aarch64-linux-gnu/bits/atomic_wide_counter.h \
   /home/niklas/haflinger/rpi-sysroot/usr/include/aarch64-linux-gnu/bits/byteswap.h \
@@ -482,6 +484,7 @@
   /home/niklas/haflinger/rpi-sysroot/usr/include/wchar.h \
   /home/niklas/haflinger/rpi-sysroot/usr/include/wctype.h \
   /home/niklas/haflinger/rpi-sysroot/usr/lib/linux/uapi/arm64/asm/errno.h \
+  /home/niklas/stromlinger/src/serial.h \
   /opt/cross-pi-gcc/aarch64-linux-gnu/include/c++/12.2.0/aarch64-linux-gnu/bits/atomic_word.h \
   /opt/cross-pi-gcc/aarch64-linux-gnu/include/c++/12.2.0/aarch64-linux-gnu/bits/c++allocator.h \
   /opt/cross-pi-gcc/aarch64-linux-gnu/include/c++/12.2.0/aarch64-linux-gnu/bits/c++config.h \
