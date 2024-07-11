@@ -29,17 +29,6 @@
                         "access": "public",
                         "name": "updateMisc",
                         "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "arguments": [
-                            {
-                                "name": "data",
-                                "type": "QString"
-                            }
-                        ],
-                        "name": "writeToSerial",
-                        "returnType": "void"
                     }
                 ],
                 "object": true,
@@ -261,22 +250,6 @@
                     {
                         "access": "public",
                         "name": "demoSlot",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "private",
-                        "name": "readSerialData",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "private",
-                        "arguments": [
-                            {
-                                "name": "data",
-                                "type": "QByteArray"
-                            }
-                        ],
-                        "name": "processSerialData",
                         "returnType": "void"
                     }
                 ],

@@ -339,6 +339,7 @@
  mdp:/home/niklas/haflinger/qt-raspi/include/QtNetwork/qtnetworkglobal.h
  mdp:/home/niklas/haflinger/qt-raspi/include/QtNetwork/qtnetworkversion.h
  mdp:/home/niklas/haflinger/qt-raspi/include/QtNetwork/qudpsocket.h
+ mdp:/home/niklas/haflinger/qt-raspi/include/QtQml/QQmlApplicationEngine
  mdp:/home/niklas/haflinger/qt-raspi/include/QtQml/QQmlEngine
  mdp:/home/niklas/haflinger/qt-raspi/include/QtQml/QtQml
  mdp:/home/niklas/haflinger/qt-raspi/include/QtQml/QtQmlDepends

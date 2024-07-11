@@ -7,7 +7,7 @@
 #include <QtQml/qqml.h>
 #include <QtQml/qqmlmoduleregistration.h>
 
-#include <./src/backend.h>
+#include "src/backend.h"
 
 
 #if !defined(QT_STATIC)

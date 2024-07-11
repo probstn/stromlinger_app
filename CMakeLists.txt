@@ -17,6 +17,8 @@ qt_add_executable(stromlingerApp
     "src/main.cpp"
     "src/backend.cpp"
     "src/backend.h"
+    "src/serial.cpp"
+    "src/serial.h"
 )
 
 qt_add_resources(stromlingerApp "configuration"

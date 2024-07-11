@@ -334,6 +334,7 @@
   /home/niklas/haflinger/qt-raspi/include/QtNetwork/qtnetworkglobal.h \
   /home/niklas/haflinger/qt-raspi/include/QtNetwork/qtnetworkversion.h \
   /home/niklas/haflinger/qt-raspi/include/QtNetwork/qudpsocket.h \
+  /home/niklas/haflinger/qt-raspi/include/QtQml/QQmlApplicationEngine \
   /home/niklas/haflinger/qt-raspi/include/QtQml/QQmlEngine \
   /home/niklas/haflinger/qt-raspi/include/QtQml/QtQml \
   /home/niklas/haflinger/qt-raspi/include/QtQml/QtQmlDepends \

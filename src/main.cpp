@@ -1,8 +1,6 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
 #include <QQmlContext>
-#include <QCursor>
-#include <QWindow>
 #include "backend.h"
 
 int main(int argc, char *argv[])
@@ -30,14 +28,6 @@ int main(int argc, char *argv[])
 
     if (engine.rootObjects().isEmpty())
         return -1;
-
-    // Get the root object (main window) and set it to fullscreen
-    QObject *rootObject = engine.rootObjects().first();
-    QWindow *window = qobject_cast<QWindow *>(rootObject);
-    if (window) {
-        window->showFullScreen();
-        window->setCursor(Qt::BlankCursor); // Set the cursor to invisible
-    }
 
     return app.exec();
 }
