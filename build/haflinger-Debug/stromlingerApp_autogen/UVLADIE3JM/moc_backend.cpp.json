@@ -33,6 +33,17 @@
                     "access": "public",
                     "arguments": [
                         {
+                            "name": "angle",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "updateTireAngle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
                             "name": "data",
                             "type": "QString"
                         }
@@ -196,6 +207,20 @@
                     "stored": true,
                     "type": "bool",
                     "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "member": "m_tireangle",
+                    "name": "tireangle",
+                    "notify": "s_tireangle",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
                 }
             ],
             "qualifiedClassName": "Backend",
@@ -253,6 +278,11 @@
                 {
                     "access": "public",
                     "name": "s_fuelLevel",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "s_tireangle",
                     "returnType": "void"
                 }
             ],

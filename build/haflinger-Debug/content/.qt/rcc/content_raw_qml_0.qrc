@@ -7,6 +7,8 @@
     <file alias="cluster/qml/FuelDial.ui.qml">/home/niklas/stromlinger/content/cluster/qml/FuelDial.ui.qml</file>
     <file alias="cluster/qml/RpmDial.ui.qml">/home/niklas/stromlinger/content/cluster/qml/RpmDial.ui.qml</file>
     <file alias="cluster/qml/SpeedDial.ui.qml">/home/niklas/stromlinger/content/cluster/qml/SpeedDial.ui.qml</file>
+    <file alias="cluster/qml/Tires.ui.qml">/home/niklas/stromlinger/content/cluster/qml/Tires.ui.qml</file>
+    <file alias="error/qml/Error.ui.qml">/home/niklas/stromlinger/content/error/qml/Error.ui.qml</file>
     <file alias="cluster/assets/arc_background_track_195_6.png">/home/niklas/stromlinger/content/cluster/assets/arc_background_track_195_6.png</file>
     <file alias="cluster/assets/arc_gauge_display_195_7.png">/home/niklas/stromlinger/content/cluster/assets/arc_gauge_display_195_7.png</file>
     <file alias="cluster/assets/arc_track_background_195_64.png">/home/niklas/stromlinger/content/cluster/assets/arc_track_background_195_64.png</file>
@@ -25,6 +27,7 @@
     <file alias="cluster/assets/fuel_needle_195_27.png">/home/niklas/stromlinger/content/cluster/assets/fuel_needle_195_27.png</file>
     <file alias="cluster/assets/fuel_dial_195_43.png">/home/niklas/stromlinger/content/cluster/assets/fuel_dial_195_43.png</file>
     <file alias="cluster/assets/Cluster_Art.png">/home/niklas/stromlinger/content/cluster/assets/Cluster_Art.png</file>
+    <file alias="cluster/assets/error.webp">/home/niklas/stromlinger/content/cluster/assets/error.webp</file>
   </qresource>
 </RCC>
 

@@ -30,9 +30,30 @@ bool Serial::openSerialPort()
     }
     */
 
+    QList<QSerialPortInfo> availablePorts = QSerialPortInfo::availablePorts();
+    QSerialPortInfo correctPort;
+    bool deviceFound = false;
+    int vendorId = 4292; //esp32 specific
+    int productId = 60000; //esp32 specific
 
+    // Search for the correct device
+    for (const QSerialPortInfo &portInfo : availablePorts) {
+        if (portInfo.hasVendorIdentifier() && portInfo.hasProductIdentifier()) {
+            if (portInfo.vendorIdentifier() == vendorId && portInfo.productIdentifier() == productId) {
+                correctPort = portInfo;
+                deviceFound = true;
+                break;
+            }
+        }
+    }
 
-    m_serialPort->setPortName("/dev/ttyUSB1");
+    if (!deviceFound) {
+        qDebug() << "Device not found.";
+        return false;
+    }
+
+    //esp32 serial port available
+    m_serialPort->setPortName(correctPort.portName()); //result as target port name
     m_serialPort->setBaudRate(QSerialPort::Baud115200);
     m_serialPort->setDataBits(QSerialPort::Data8);
     m_serialPort->setParity(QSerialPort::NoParity);

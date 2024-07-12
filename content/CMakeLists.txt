@@ -14,6 +14,8 @@ qt6_add_qml_module(content
         cluster/qml/FuelDial.ui.qml
         cluster/qml/RpmDial.ui.qml
         cluster/qml/SpeedDial.ui.qml
+        cluster/qml/Tires.ui.qml
+        error/qml/Error.ui.qml
     RESOURCES
         cluster/assets/arc_background_track_195_6.png
         cluster/assets/arc_gauge_display_195_7.png
@@ -33,4 +35,5 @@ qt6_add_qml_module(content
         cluster/assets/fuel_needle_195_27.png
         cluster/assets/fuel_dial_195_43.png
         cluster/assets/Cluster_Art.png
+        cluster/assets/error.webp
 )

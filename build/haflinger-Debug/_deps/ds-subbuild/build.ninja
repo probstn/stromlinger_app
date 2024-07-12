@@ -172,14 +172,14 @@ build all: phony ds-populate
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/ExternalProject-gitupdate.cmake.in /usr/share/cmake-3.22/Modules/ExternalProject.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.22/Modules/RepositoryInfo.txt.in CMakeCache.txt CMakeFiles/3.22.1/CMakeSystem.cmake CMakeLists.txt ds-populate-prefix/tmp/ds-populate-cfgcmd.txt.in
+build build.ninja: RERUN_CMAKE | /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/ExternalProject-gitupdate.cmake.in /usr/share/cmake-3.22/Modules/ExternalProject.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.22/Modules/RepositoryInfo.txt.in CMakeCache.txt CMakeFiles/3.22.1/CMakeSystem.cmake CMakeLists.txt ds-populate-prefix/tmp/ds-populate-cfgcmd.txt.in
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /usr/share/cmake-3.22/Modules/CMakeDetermineSystem.cmake /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeSystem.cmake.in /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/ExternalProject-gitupdate.cmake.in /usr/share/cmake-3.22/Modules/ExternalProject.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.22/Modules/RepositoryInfo.txt.in CMakeCache.txt CMakeFiles/3.22.1/CMakeSystem.cmake CMakeLists.txt ds-populate-prefix/tmp/ds-populate-cfgcmd.txt.in: phony
+build /usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.22/Modules/ExternalProject-gitupdate.cmake.in /usr/share/cmake-3.22/Modules/ExternalProject.cmake /usr/share/cmake-3.22/Modules/Platform/Linux.cmake /usr/share/cmake-3.22/Modules/Platform/UnixPaths.cmake /usr/share/cmake-3.22/Modules/RepositoryInfo.txt.in CMakeCache.txt CMakeFiles/3.22.1/CMakeSystem.cmake CMakeLists.txt ds-populate-prefix/tmp/ds-populate-cfgcmd.txt.in: phony
 
 
 #############################################

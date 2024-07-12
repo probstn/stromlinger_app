@@ -88,7 +88,7 @@ Item {
             x: 81
             y: 484
             color: "#FFFFFF"
-            text: "10"
+            text: "5"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -99,7 +99,7 @@ Item {
             x: 29
             y: 421
             color: "#FFFFFF"
-            text: "20"
+            text: "10"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -110,7 +110,7 @@ Item {
             x: 2
             y: 357
             color: "#FFFFFF"
-            text: "30"
+            text: "15"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -121,7 +121,7 @@ Item {
             x: -11
             y: 280
             color: "#FFFFFF"
-            text: "40"
+            text: "20"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -132,7 +132,7 @@ Item {
             x: -2
             y: 204
             color: "#FFFFFF"
-            text: "50"
+            text: "25"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -143,7 +143,7 @@ Item {
             x: 16
             y: 135
             color: "#CCCCCC"
-            text: "60"
+            text: "30"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -154,7 +154,7 @@ Item {
             x: 66
             y: 70
             color: "#FFFFFF"
-            text: "70"
+            text: "35"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -165,7 +165,7 @@ Item {
             x: 125
             y: 15
             color: "#FFFFFF"
-            text: "80"
+            text: "40"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -176,7 +176,7 @@ Item {
             x: 197
             y: -14
             color: "#FFFFFF"
-            text: "90"
+            text: "45"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -184,10 +184,10 @@ Item {
 
         Text {
             id: kph_195_105
-            x: 274
+            x: 277
             y: -23
             color: "#FFFFFF"
-            text: "100"
+            text: "50"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -198,7 +198,7 @@ Item {
             x: 364
             y: -11
             color: "#FFFFFF"
-            text: "110"
+            text: "55"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -209,7 +209,7 @@ Item {
             x: 435
             y: 13
             color: "#FFFFFF"
-            text: "120"
+            text: "60"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -220,7 +220,7 @@ Item {
             x: 495
             y: 62
             color: "#FFFFFF"
-            text: "130"
+            text: "65"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -231,7 +231,7 @@ Item {
             x: 539
             y: 127
             color: "#FFFFFF"
-            text: "140"
+            text: "70"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -242,7 +242,7 @@ Item {
             x: 562
             y: 196
             color: "#FFFFFF"
-            text: "150"
+            text: "75"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -253,7 +253,7 @@ Item {
             x: 575
             y: 269
             color: "#FFFFFF"
-            text: "160"
+            text: "80"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -264,7 +264,7 @@ Item {
             x: 569
             y: 352
             color: "#FFFFFF"
-            text: "170"
+            text: "85"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -275,7 +275,7 @@ Item {
             x: 538
             y: 424
             color: "#FFFFFF"
-            text: "180"
+            text: "90"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -286,7 +286,7 @@ Item {
             x: 494
             y: 485
             color: "#FFFFFF"
-            text: "190"
+            text: "95"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"
@@ -297,7 +297,7 @@ Item {
             x: 426
             y: 524
             color: "#FFFFFF"
-            text: "200"
+            text: "100"
             font.weight: Font.Thin
             font.pixelSize: 29
             font.family: "Exo 2"

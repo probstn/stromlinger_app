@@ -11,4 +11,6 @@ CustomDot 1.0 cluster/qml/CustomDot.qml
 FuelDial 1.0 cluster/qml/FuelDial.ui.qml
 RpmDial 1.0 cluster/qml/RpmDial.ui.qml
 SpeedDial 1.0 cluster/qml/SpeedDial.ui.qml
+Tires 1.0 cluster/qml/Tires.ui.qml
+Error 1.0 error/qml/Error.ui.qml
 

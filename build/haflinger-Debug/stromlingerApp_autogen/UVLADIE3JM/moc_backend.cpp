@@ -52,6 +52,7 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "s_currentGear",
     "s_engineTemp",
     "s_fuelLevel",
+    "s_tireangle",
     "demoSlot",
     "handleSerialData",
     "data",
@@ -59,6 +60,8 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "updateRpm",
     "updateFuel",
     "updateMisc",
+    "updateTireAngle",
+    "angle",
     "writeSerialData",
     "rpm",
     "displayRpm",
@@ -70,7 +73,8 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "displayRange",
     "currentGear",
     "engineTemp",
-    "fuelLevel"
+    "fuelLevel",
+    "tireangle"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -83,41 +87,44 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
       12,       // revision
        0,       // classname
        1,   14, // classinfo
-      18,   16, // methods
-      11,  146, // properties
+      20,   16, // methods
+      12,  162, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-      11,       // signalCount
+      12,       // signalCount
 
  // classinfo: key, value
        1,    2,
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,  124,    4, 0x06,   12 /* Public */,
-       5,    0,  125,    4, 0x06,   13 /* Public */,
-       6,    0,  126,    4, 0x06,   14 /* Public */,
-       7,    0,  127,    4, 0x06,   15 /* Public */,
-       8,    0,  128,    4, 0x06,   16 /* Public */,
-       9,    0,  129,    4, 0x06,   17 /* Public */,
-      10,    0,  130,    4, 0x06,   18 /* Public */,
-      11,    0,  131,    4, 0x06,   19 /* Public */,
-      12,    0,  132,    4, 0x06,   20 /* Public */,
-      13,    0,  133,    4, 0x06,   21 /* Public */,
-      14,    0,  134,    4, 0x06,   22 /* Public */,
+       3,    0,  136,    4, 0x06,   13 /* Public */,
+       5,    0,  137,    4, 0x06,   14 /* Public */,
+       6,    0,  138,    4, 0x06,   15 /* Public */,
+       7,    0,  139,    4, 0x06,   16 /* Public */,
+       8,    0,  140,    4, 0x06,   17 /* Public */,
+       9,    0,  141,    4, 0x06,   18 /* Public */,
+      10,    0,  142,    4, 0x06,   19 /* Public */,
+      11,    0,  143,    4, 0x06,   20 /* Public */,
+      12,    0,  144,    4, 0x06,   21 /* Public */,
+      13,    0,  145,    4, 0x06,   22 /* Public */,
+      14,    0,  146,    4, 0x06,   23 /* Public */,
+      15,    0,  147,    4, 0x06,   24 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      15,    0,  135,    4, 0x0a,   23 /* Public */,
-      16,    1,  136,    4, 0x0a,   24 /* Public */,
+      16,    0,  148,    4, 0x0a,   25 /* Public */,
+      17,    1,  149,    4, 0x0a,   26 /* Public */,
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-      18,    0,  139,    4, 0x02,   26 /* Public */,
-      19,    0,  140,    4, 0x02,   27 /* Public */,
-      20,    0,  141,    4, 0x02,   28 /* Public */,
-      21,    0,  142,    4, 0x02,   29 /* Public */,
-      22,    1,  143,    4, 0x02,   30 /* Public */,
+      19,    0,  152,    4, 0x02,   28 /* Public */,
+      20,    0,  153,    4, 0x02,   29 /* Public */,
+      21,    0,  154,    4, 0x02,   30 /* Public */,
+      22,    0,  155,    4, 0x02,   31 /* Public */,
+      23,    1,  156,    4, 0x02,   32 /* Public */,
+      25,    1,  159,    4, 0x02,   34 /* Public */,
 
  // signals: parameters
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -132,27 +139,29 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QByteArray,   17,
+    QMetaType::Void, QMetaType::QByteArray,   18,
 
  // methods: parameters
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QString,   17,
+    QMetaType::Void, QMetaType::Int,   24,
+    QMetaType::Void, QMetaType::QString,   18,
 
  // properties: name, type, flags
-      23, QMetaType::Int, 0x00015003, uint(0), 0,
-      24, QMetaType::Int, 0x00015003, uint(1), 0,
-      25, QMetaType::Int, 0x00015003, uint(2), 0,
-      26, QMetaType::Int, 0x00015003, uint(3), 0,
-      27, QMetaType::Int, 0x00015003, uint(4), 0,
-      28, QMetaType::Int, 0x00015003, uint(5), 0,
-      29, QMetaType::Int, 0x00015003, uint(6), 0,
-      30, QMetaType::Int, 0x00015003, uint(7), 0,
-      31, QMetaType::Int, 0x00015003, uint(8), 0,
-      32, QMetaType::Bool, 0x00015003, uint(9), 0,
-      33, QMetaType::Bool, 0x00015003, uint(10), 0,
+      26, QMetaType::Int, 0x00015003, uint(0), 0,
+      27, QMetaType::Int, 0x00015003, uint(1), 0,
+      28, QMetaType::Int, 0x00015003, uint(2), 0,
+      29, QMetaType::Int, 0x00015003, uint(3), 0,
+      30, QMetaType::Int, 0x00015003, uint(4), 0,
+      31, QMetaType::Int, 0x00015003, uint(5), 0,
+      32, QMetaType::Int, 0x00015003, uint(6), 0,
+      33, QMetaType::Int, 0x00015003, uint(7), 0,
+      34, QMetaType::Int, 0x00015003, uint(8), 0,
+      35, QMetaType::Bool, 0x00015003, uint(9), 0,
+      36, QMetaType::Bool, 0x00015003, uint(10), 0,
+      37, QMetaType::Int, 0x00015003, uint(11), 0,
 
        0        // eod
 };
@@ -186,6 +195,8 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         bool,
         // property 'fuelLevel'
         bool,
+        // property 'tireangle'
+        int,
         // Q_OBJECT / Q_GADGET
         Backend,
         // method 's_rpm'
@@ -210,6 +221,8 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         void,
         // method 's_fuelLevel'
         void,
+        // method 's_tireangle'
+        void,
         // method 'demoSlot'
         void,
         // method 'handleSerialData'
@@ -223,6 +236,9 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         void,
         // method 'updateMisc'
         void,
+        // method 'updateTireAngle'
+        void,
+        int,
         // method 'writeSerialData'
         void,
         const QString &
@@ -247,13 +263,15 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 8: _t->s_currentGear(); break;
         case 9: _t->s_engineTemp(); break;
         case 10: _t->s_fuelLevel(); break;
-        case 11: _t->demoSlot(); break;
-        case 12: _t->handleSerialData((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
-        case 13: _t->updateSpeed(); break;
-        case 14: _t->updateRpm(); break;
-        case 15: _t->updateFuel(); break;
-        case 16: _t->updateMisc(); break;
-        case 17: _t->writeSerialData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 11: _t->s_tireangle(); break;
+        case 12: _t->demoSlot(); break;
+        case 13: _t->handleSerialData((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
+        case 14: _t->updateSpeed(); break;
+        case 15: _t->updateRpm(); break;
+        case 16: _t->updateFuel(); break;
+        case 17: _t->updateMisc(); break;
+        case 18: _t->updateTireAngle((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
+        case 19: _t->writeSerialData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -335,6 +353,13 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
                 return;
             }
         }
+        {
+            using _t = void (Backend::*)();
+            if (_t _q_method = &Backend::s_tireangle; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 11;
+                return;
+            }
+        }
     } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<Backend *>(_o);
         (void)_t;
@@ -351,6 +376,7 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 8: *reinterpret_cast< int*>(_v) = _t->m_currentGear; break;
         case 9: *reinterpret_cast< bool*>(_v) = _t->m_engineTemp; break;
         case 10: *reinterpret_cast< bool*>(_v) = _t->m_fuelLevel; break;
+        case 11: *reinterpret_cast< int*>(_v) = _t->m_tireangle; break;
         default: break;
         }
     } else if (_c == QMetaObject::WriteProperty) {
@@ -424,6 +450,12 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
                 Q_EMIT _t->s_fuelLevel();
             }
             break;
+        case 11:
+            if (_t->m_tireangle != *reinterpret_cast< int*>(_v)) {
+                _t->m_tireangle = *reinterpret_cast< int*>(_v);
+                Q_EMIT _t->s_tireangle();
+            }
+            break;
         default: break;
         }
     } else if (_c == QMetaObject::ResetProperty) {
@@ -450,18 +482,18 @@ int Backend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 18)
+        if (_id < 20)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 18;
+        _id -= 20;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 18)
+        if (_id < 20)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 18;
+        _id -= 20;
     }else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 12;
     }
     return _id;
 }
@@ -530,5 +562,11 @@ void Backend::s_engineTemp()
 void Backend::s_fuelLevel()
 {
     QMetaObject::activate(this, &staticMetaObject, 10, nullptr);
+}
+
+// SIGNAL 11
+void Backend::s_tireangle()
+{
+    QMetaObject::activate(this, &staticMetaObject, 11, nullptr);
 }
 QT_WARNING_POP

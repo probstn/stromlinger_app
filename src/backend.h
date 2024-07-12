@@ -22,6 +22,7 @@ class Backend : public QObject
     Q_PROPERTY(int currentGear     MEMBER m_currentGear     NOTIFY s_currentGear)
     Q_PROPERTY(bool engineTemp     MEMBER m_engineTemp      NOTIFY s_engineTemp)
     Q_PROPERTY(bool fuelLevel      MEMBER m_fuelLevel       NOTIFY s_fuelLevel)
+    Q_PROPERTY(int tireangle       MEMBER m_tireangle       NOTIFY s_tireangle)
 
 public:
     explicit Backend(QObject *parent = nullptr);
@@ -30,6 +31,7 @@ public:
     Q_INVOKABLE void updateRpm();
     Q_INVOKABLE void updateFuel();
     Q_INVOKABLE void updateMisc();
+    Q_INVOKABLE void updateTireAngle(int angle);
 
     Q_INVOKABLE void writeSerialData(const QString &data);
 
@@ -49,6 +51,7 @@ signals:
     void s_currentGear();
     void s_engineTemp();
     void s_fuelLevel();
+    void s_tireangle();
 
 private:
     int m_rpm = 0;
@@ -62,6 +65,7 @@ private:
     int m_currentGear = 1;
     bool m_engineTemp = false;
     bool m_fuelLevel = false;
+    int m_tireangle = 0;
 
     Serial *m_serial; // Serial communication object
 };

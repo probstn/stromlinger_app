@@ -97,10 +97,10 @@ Item {
 
             Text {
                 id: kilometers_195_12
-                x: 4
+                x: 22
                 y: 47
                 color: "#FFFFFF"
-                text: "KILOMETERS"
+                text: "VOLTAGE"
                 font.weight: Font.ExtraLight
                 font.pixelSize: 19
                 font.family: "IBM Plex Mono"

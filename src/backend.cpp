@@ -49,6 +49,12 @@ void Backend::updateFuel()
     emit s_displayRange();
 }
 
+void Backend::updateTireAngle(int angle)
+{
+    m_tireangle = angle;
+    emit s_tireangle();
+}
+
 void Backend::updateMisc()
 {
     m_currentGear = 3;
@@ -77,5 +83,16 @@ void Backend::handleSerialData(const QByteArray &data)
     qDebug() << "Received serial data:" << receivedData;
     // Handle the received data (e.g., update UI or process commands)
     m_displayKph = receivedData.toInt();
+    m_kph = receivedData.toInt() * 2;
     emit s_displayKph();
+    emit s_kph();
+
+    updateTireAngle(50-receivedData.toInt());
+
+    /*
+    speed
+    motor_rpm
+    voltage
+    ah
+    */
 }

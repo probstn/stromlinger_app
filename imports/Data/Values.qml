@@ -81,6 +81,9 @@ QtObject {
     property bool booting: true
     readonly property real bootDuration: 5000
 
+    /* Tires */
+    property int tireangle: backend.tireangle
+
     property Timer bootTimer: Timer{
         running: true
         repeat: false

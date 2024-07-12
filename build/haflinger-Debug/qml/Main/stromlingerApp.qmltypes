@@ -24,6 +24,7 @@ Module {
         Property { name: "currentGear"; type: "int"; notify: "s_currentGear"; index: 8 }
         Property { name: "engineTemp"; type: "bool"; notify: "s_engineTemp"; index: 9 }
         Property { name: "fuelLevel"; type: "bool"; notify: "s_fuelLevel"; index: 10 }
+        Property { name: "tireangle"; type: "int"; notify: "s_tireangle"; index: 11 }
         Signal { name: "s_rpm" }
         Signal { name: "s_displayRpm" }
         Signal { name: "s_kph" }
@@ -35,6 +36,7 @@ Module {
         Signal { name: "s_currentGear" }
         Signal { name: "s_engineTemp" }
         Signal { name: "s_fuelLevel" }
+        Signal { name: "s_tireangle" }
         Method { name: "demoSlot" }
         Method {
             name: "handleSerialData"
@@ -44,6 +46,10 @@ Module {
         Method { name: "updateRpm" }
         Method { name: "updateFuel" }
         Method { name: "updateMisc" }
+        Method {
+            name: "updateTireAngle"
+            Parameter { name: "angle"; type: "int" }
+        }
         Method {
             name: "writeSerialData"
             Parameter { name: "data"; type: "QString" }

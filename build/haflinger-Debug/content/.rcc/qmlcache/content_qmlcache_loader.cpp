@@ -54,6 +54,20 @@ namespace _qt_qml_content_cluster_qml_SpeedDial_ui_0x2e_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
+namespace _qt_qml_content_cluster_qml_Tires_ui_0x2e_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
+namespace _qt_qml_content_error_qml_Error_ui_0x2e_qml { 
+    extern const unsigned char qmlData[];
+    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
+    const QQmlPrivate::CachedQmlUnit unit = {
+        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
+    };
+}
 
 }
 namespace {
@@ -75,6 +89,8 @@ Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/cluster/qml/FuelDial.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_cluster_qml_FuelDial_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/cluster/qml/RpmDial.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_cluster_qml_RpmDial_ui_0x2e_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/cluster/qml/SpeedDial.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_cluster_qml_SpeedDial_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/cluster/qml/Tires.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_cluster_qml_Tires_ui_0x2e_qml::unit);
+    resourcePathToCachedUnit.insert(QStringLiteral("/qt/qml/content/error/qml/Error.ui.qml"), &QmlCacheGeneratedCode::_qt_qml_content_error_qml_Error_ui_0x2e_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;
     registration.lookupCachedQmlUnit = &lookupCachedUnit;
