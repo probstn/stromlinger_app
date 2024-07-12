@@ -1,3 +1,4 @@
+// backend.cpp
 #include "backend.h"
 #include "serial.h"
 #include <QQmlComponent>
@@ -95,4 +96,19 @@ void Backend::handleSerialData(const QByteArray &data)
     voltage
     ah
     */
+}
+
+void Backend::sendLeft()
+{
+    writeSerialData("1");
+}
+
+void Backend::sendRight()
+{
+    writeSerialData("2");
+}
+
+void Backend::sendCenter()
+{
+    writeSerialData("0");
 }

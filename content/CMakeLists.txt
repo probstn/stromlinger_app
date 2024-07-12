@@ -9,18 +9,20 @@ qt6_add_qml_module(content
     QML_FILES
         App.qml
         Background.ui.qml
-        cluster/qml/Cluster.ui.qml
+        cluster/qml/Cluster.qml
         cluster/qml/CustomDot.qml
         cluster/qml/FuelDial.ui.qml
         cluster/qml/RpmDial.ui.qml
         cluster/qml/SpeedDial.ui.qml
-        cluster/qml/Tires.ui.qml
+        cluster/qml/Tires.qml
         error/qml/Error.ui.qml
     RESOURCES
+        cluster/assets/lowlight.png
         cluster/assets/arc_background_track_195_6.png
         cluster/assets/arc_gauge_display_195_7.png
         cluster/assets/arc_track_background_195_64.png
         bgcluster.jpg
+        cluster/assets/arrow.svg
         cluster/assets/carLogo.svg
         cluster/assets/tires.webp
         cluster/assets/speedometer_needle_195_142.png

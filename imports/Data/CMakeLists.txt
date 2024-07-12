@@ -14,6 +14,7 @@ qt6_add_qml_module(Data
 	QML_FILES
 		"Values.qml"
 	RESOURCES
-		"simulation.js"
+        QML_FILES TireControl.qml
+
 )
 

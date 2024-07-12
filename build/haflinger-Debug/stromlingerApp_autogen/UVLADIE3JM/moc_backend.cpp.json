@@ -50,6 +50,21 @@
                     ],
                     "name": "writeSerialData",
                     "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "sendLeft",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "sendRight",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "sendCenter",
+                    "returnType": "void"
                 }
             ],
             "object": true,

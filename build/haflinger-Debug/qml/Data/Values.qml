@@ -50,7 +50,6 @@
 
 pragma Singleton
 import QtQuick
-import "simulation.js" as JS
 import stromlinger
 
 QtObject {

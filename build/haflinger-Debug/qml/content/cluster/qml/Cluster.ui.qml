@@ -264,6 +264,7 @@ Item {
 
     Tires {
         id: tire
+        width: 400
         anchors.horizontalCenter: parent.horizontalCenter
     }
 

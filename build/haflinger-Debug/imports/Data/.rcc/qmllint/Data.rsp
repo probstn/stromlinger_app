@@ -10,3 +10,4 @@
 --resource
 /home/niklas/stromlinger/build/haflinger-Debug/imports/Data/.qt/rcc/Data_raw_qml_0.qrc
 /home/niklas/stromlinger/imports/Data/Values.qml
+/home/niklas/stromlinger/imports/Data/TireControl.qml

@@ -14,28 +14,6 @@ Item {
     width: Constants.width
     height: Constants.height
 
-    ListView {
-        id: listView
-        x: 227
-        y: 34
-        width: 571
-        height: 533
-        model: errorModel
-        delegate: Row {
-            spacing: 5
-            Rectangle {
-                width: 100
-                height: 20
-                color: colorCode
-            }
-
-            Text {
-                width: 100
-                text: name
-            }
-        }
-    }
-
     ListModel {
         id: errorModel
         // Example error entries

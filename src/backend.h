@@ -1,3 +1,4 @@
+// backend.h
 #ifndef BACKEND_H
 #define BACKEND_H
 
@@ -34,6 +35,9 @@ public:
     Q_INVOKABLE void updateTireAngle(int angle);
 
     Q_INVOKABLE void writeSerialData(const QString &data);
+    Q_INVOKABLE void sendLeft();
+    Q_INVOKABLE void sendRight();
+    Q_INVOKABLE void sendCenter();
 
 public slots:
     void demoSlot();

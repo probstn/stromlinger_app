@@ -5,4 +5,5 @@ classname DataPlugin
 typeinfo Data.qmltypes
 prefer :/qt/qml/Data/
 singleton Values 1.0 Values.qml
+TireControl 1.0 TireControl.qml
 

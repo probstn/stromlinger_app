@@ -54,5 +54,8 @@ Module {
             name: "writeSerialData"
             Parameter { name: "data"; type: "QString" }
         }
+        Method { name: "sendLeft" }
+        Method { name: "sendRight" }
+        Method { name: "sendCenter" }
     }
 }

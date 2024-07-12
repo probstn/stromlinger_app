@@ -43,7 +43,6 @@ Window {
         y: 0
         width: 329
         height: 100
-        cursorShape: Qt.BlankCursor
         onClicked: {
             swipeView.setCurrentIndex(0)
         }

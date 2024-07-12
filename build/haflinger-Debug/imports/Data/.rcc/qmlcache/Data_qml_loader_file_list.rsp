@@ -3,3 +3,4 @@
 --resource
 /home/niklas/stromlinger/build/haflinger-Debug/imports/Data/.qt/rcc/Data_raw_qml_0.qrc
 /qt/qml/Data/Values.qml
+/qt/qml/Data/TireControl.qml
