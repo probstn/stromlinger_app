@@ -62,41 +62,6 @@ Item {
     width: 1024
     height: 600
 
-    Image {
-        id: cluster_ArtAsset
-        x: 0
-        y: 0
-        width: 1024
-        height: 600
-        source: "../assets/Cluster_Art.png"
-    }
-
-    Background {
-        id: background
-        x: 0
-        y: 0
-        width: 1024
-        height: 600
-
-        Image {
-            id: error
-            x: 25
-            y: 25
-            width: 50
-            source: "../assets/error.webp"
-            fillMode: Image.PreserveAspectFit
-        }
-
-        Text {
-            id: text1
-            x: 96
-            y: 28
-            color: "#c82121"
-            text: qsTr("ERROR")
-            font.pixelSize: 40
-        }
-    }
-
     FuelDial {
         id: fuelDial
         x: 635
@@ -300,20 +265,6 @@ Item {
     Tires {
         id: tire
         anchors.horizontalCenter: parent.horizontalCenter
-    }
-
-    Text {
-        id: time
-        x: 874
-        y: 8
-        color: "#ffffff"
-        text: "10:50"
-        anchors.right: parent.right
-        anchors.top: parent.top
-        anchors.rightMargin: 8
-        anchors.topMargin: 8
-        font.pixelSize: 40
-        padding: 20
     }
 
     states: [

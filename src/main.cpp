@@ -10,6 +10,9 @@ int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
 
+    //Override global cursor to blank cursor
+    app.setOverrideCursor(QCursor(Qt::BlankCursor));
+
     QQmlApplicationEngine engine;
 
     // Create and set the backend object
@@ -37,8 +40,6 @@ int main(int argc, char *argv[])
     QQuickWindow *window = qobject_cast<QQuickWindow *>(rootObject);
 
     if (window) {
-        // Hide the cursor
-        window->setCursor(Qt::BlankCursor);
         // Set full-screen mode
         window->showFullScreen();
     }

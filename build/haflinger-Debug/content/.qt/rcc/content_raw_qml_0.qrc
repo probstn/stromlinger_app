@@ -1,7 +1,7 @@
 <RCC>
   <qresource prefix="/qt/qml/content/">
     <file alias="App.qml">/home/niklas/stromlinger/content/App.qml</file>
-    <file alias="cluster/qml/Background.ui.qml">/home/niklas/stromlinger/content/cluster/qml/Background.ui.qml</file>
+    <file alias="Background.ui.qml">/home/niklas/stromlinger/content/Background.ui.qml</file>
     <file alias="cluster/qml/Cluster.ui.qml">/home/niklas/stromlinger/content/cluster/qml/Cluster.ui.qml</file>
     <file alias="cluster/qml/CustomDot.qml">/home/niklas/stromlinger/content/cluster/qml/CustomDot.qml</file>
     <file alias="cluster/qml/FuelDial.ui.qml">/home/niklas/stromlinger/content/cluster/qml/FuelDial.ui.qml</file>
@@ -12,7 +12,7 @@
     <file alias="cluster/assets/arc_background_track_195_6.png">/home/niklas/stromlinger/content/cluster/assets/arc_background_track_195_6.png</file>
     <file alias="cluster/assets/arc_gauge_display_195_7.png">/home/niklas/stromlinger/content/cluster/assets/arc_gauge_display_195_7.png</file>
     <file alias="cluster/assets/arc_track_background_195_64.png">/home/niklas/stromlinger/content/cluster/assets/arc_track_background_195_64.png</file>
-    <file alias="cluster/assets/backgrounds_195_610.jpg">/home/niklas/stromlinger/content/cluster/assets/backgrounds_195_610.jpg</file>
+    <file alias="bgcluster.jpg">/home/niklas/stromlinger/content/bgcluster.jpg</file>
     <file alias="cluster/assets/carLogo.svg">/home/niklas/stromlinger/content/cluster/assets/carLogo.svg</file>
     <file alias="cluster/assets/tires.webp">/home/niklas/stromlinger/content/cluster/assets/tires.webp</file>
     <file alias="cluster/assets/speedometer_needle_195_142.png">/home/niklas/stromlinger/content/cluster/assets/speedometer_needle_195_142.png</file>
@@ -27,7 +27,7 @@
     <file alias="cluster/assets/fuel_needle_195_27.png">/home/niklas/stromlinger/content/cluster/assets/fuel_needle_195_27.png</file>
     <file alias="cluster/assets/fuel_dial_195_43.png">/home/niklas/stromlinger/content/cluster/assets/fuel_dial_195_43.png</file>
     <file alias="cluster/assets/Cluster_Art.png">/home/niklas/stromlinger/content/cluster/assets/Cluster_Art.png</file>
-    <file alias="cluster/assets/error.webp">/home/niklas/stromlinger/content/cluster/assets/error.webp</file>
+    <file alias="error.webp">/home/niklas/stromlinger/content/error.webp</file>
   </qresource>
 </RCC>
 

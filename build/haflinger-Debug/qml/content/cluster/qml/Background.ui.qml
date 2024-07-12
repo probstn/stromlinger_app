@@ -55,14 +55,18 @@ Rectangle {
     id: backgrounds_195_610
     width: 1024
     height: 600
+    opacity: 1
+    visible: true
     color: "black"
 
     Image {
-        id: backgrounds_195_610Asset
+        id: bgcluster
         x: 0
         y: 0
         width: 1024
         height: 600
-        source: "../assets/backgrounds_195_610.jpg"
+        opacity: 1
+        visible: false
+        source: "../assets/bgcluster.jpg"
     }
 }

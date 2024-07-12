@@ -8,7 +8,7 @@ qt6_add_qml_module(content
     RESOURCE_PREFIX "/qt/qml"
     QML_FILES
         App.qml
-        cluster/qml/Background.ui.qml
+        Background.ui.qml
         cluster/qml/Cluster.ui.qml
         cluster/qml/CustomDot.qml
         cluster/qml/FuelDial.ui.qml
@@ -20,7 +20,7 @@ qt6_add_qml_module(content
         cluster/assets/arc_background_track_195_6.png
         cluster/assets/arc_gauge_display_195_7.png
         cluster/assets/arc_track_background_195_64.png
-        cluster/assets/backgrounds_195_610.jpg
+        bgcluster.jpg
         cluster/assets/carLogo.svg
         cluster/assets/tires.webp
         cluster/assets/speedometer_needle_195_142.png
@@ -35,5 +35,5 @@ qt6_add_qml_module(content
         cluster/assets/fuel_needle_195_27.png
         cluster/assets/fuel_dial_195_43.png
         cluster/assets/Cluster_Art.png
-        cluster/assets/error.webp
+        error.webp
 )
