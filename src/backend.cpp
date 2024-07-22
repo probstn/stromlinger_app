@@ -12,7 +12,7 @@ Backend::Backend(QObject *parent)
     QObject::connect(this, &Backend::s_displayKph, this, &Backend::demoSlot); // Connect signal to slot
 
     // Connect serial data received signal to the handler slot
-    connect(m_serial, &Serial::dataReceived, this, &Backend::handleSerialData);
+    connect(m_serial, &Serial::packetReceived, this, &Backend::processPacket);
 
     // Open serial port
     if (!m_serial->openSerialPort()) {
@@ -41,12 +41,12 @@ void Backend::updateRpm()
 
 void Backend::updateFuel()
 {
-    m_displayLiters = 100;
-    m_liters = m_displayLiters * 10;
+    m_displayKph = 100;
+    m_kph = m_displayKph * 10;
     m_displayRange = 100;
 
-    emit s_liters();
-    emit s_displayLiters();
+    emit s_kph();
+    emit s_displayKph();
     emit s_displayRange();
 }
 
@@ -60,11 +60,11 @@ void Backend::updateMisc()
 {
     m_currentGear = 3;
     m_engineTemp = true;
-    m_fuelLevel = true;
+    m_voltage = true;
 
     emit s_currentGear();
     emit s_engineTemp();
-    emit s_fuelLevel();
+    emit s_voltage();
 }
 
 void Backend::demoSlot()
@@ -78,10 +78,35 @@ void Backend::writeSerialData(const QString &data)
     m_serial->writeData(byteArray);
 }
 
-void Backend::handleSerialData(const QByteArray &data)
+void Backend::processPacket(const QByteArray &packet)
 {
+
+    if(packet[1] == 0x00) {
+        qDebug() << "Got message 1";
+    } else if(packet[1] == 0x01) {
+        qDebug() << "Got message 2";
+    }
+    /*
     QString receivedData = QString::fromUtf8(data);
     qDebug() << "Received serial data:" << receivedData;
+
+    if(data[0] == 0x81) {
+        qDebug() << "Got header";
+
+        if(data[1] == 0x00) {
+            qDebug() << "Got type ESC1";
+
+        }
+        else if(data[1] == 0x01) {
+            qDebug() << "Got type ESC2";
+            m_displayRpm = (data[4] << 8) & data[3];
+            m_displayKph = (data[8] << 8) & data[7];
+            emit s_displayRpm();
+            emit s_displayKph();
+        }
+    }
+
+
     // Handle the received data (e.g., update UI or process commands)
     m_displayKph = receivedData.toInt();
     m_kph = receivedData.toInt() * 2;
@@ -89,7 +114,7 @@ void Backend::handleSerialData(const QByteArray &data)
     emit s_kph();
 
     updateTireAngle(50-receivedData.toInt());
-
+    */
     /*
     speed
     motor_rpm

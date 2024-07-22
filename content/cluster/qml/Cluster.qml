@@ -289,6 +289,13 @@ Item {
         }
     }
 
+    ProgressBar {
+        id: progressBar
+        x: 412
+        y: 370
+        value: 0.5
+    }
+
     states: [
         State {
             name: "bootState"
@@ -327,6 +334,15 @@ Item {
                 height: 52
                 text: qsTr("Light")
                 highlighted: false
+            }
+
+            PropertyChanges {
+                target: progressBar
+                x: 430
+                y: 218
+                width: 165
+                height: 18
+                value: Data.Values.throttle
             }
         }
     ]

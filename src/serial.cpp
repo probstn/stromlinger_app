@@ -5,7 +5,7 @@ Serial::Serial(QObject *parent)
     : QObject(parent),
     m_serialPort(new QSerialPort(this))
 {
-    connect(m_serialPort, &QSerialPort::readyRead, this, &Serial::handleReadyRead);
+    connect(m_serialPort, &QSerialPort::readyRead, this, &Serial::dataReady);
 }
 
 Serial::~Serial()
@@ -84,19 +84,89 @@ void Serial::writeData(const QByteArray &data)
     }
 }
 
-QByteArray Serial::readData()
-{
-    QByteArray data;
+uint8_t packet[13];
+uint8_t data_index = 0;
+
+enum packetState {
+    HEADER = 0,
+    TYPE = 1,
+    LENGTH = 2,
+    DATA = 3,
+    CRC_MSB = 11,
+    CRC_LSB = 12
+};
+
+packetState state;
+
+QByteArray Serial::readPacket() {
+    QByteArray buffer;
+
     if (m_serialPort->isReadable()) {
-        data = m_serialPort->readAll();
+        // Read all available data from the serial port
+        buffer = m_serialPort->readAll();
+
+        for(uint8_t b : buffer) {
+            if(state == HEADER) {
+                if(b == 0x81) {
+                    //got header
+                    //qDebug() <<"Got header!";
+                    packet[HEADER] = b;
+                    state = TYPE;
+                }
+            } else if (state == TYPE) {
+                packet[TYPE] = b;
+                state = LENGTH;
+            } else if (state == LENGTH) {
+                packet[LENGTH] = b;
+                state = DATA;
+            } else if (state == DATA) {
+                //8 Databytes in Kelly messages
+                packet[DATA + data_index] = b;
+                data_index++;
+                if(data_index > 7) {
+                    data_index = 0;
+                    state = CRC_MSB;
+                }
+            } else if (state == CRC_MSB) {
+                packet[CRC_MSB] = b;
+                state = CRC_LSB;
+            }  else if (state == CRC_LSB) {
+                packet[CRC_LSB] = b;
+                state = HEADER;
+                uint16_t packetCalculatedChecksum = crc16(packet, packet[2]-2);
+                uint16_t packetReceivedChecksum = ((packet[CRC_MSB] << 8) | packet[CRC_LSB]);
+                //qDebug() << packet[CRC_MSB] << packet[CRC_LSB] << ((checksum >> 8) & 0xFF) << (checksum & 0xFF);
+                if(packetCalculatedChecksum == packetReceivedChecksum) {
+                    return QByteArray::fromRawData(reinterpret_cast<const char*>(packet), sizeof(packet));
+                }
+            }        
+        }
     } else {
         qDebug() << "Serial port is not readable.";
     }
-    return data;
+
+    return 0;  // Return 0 meaning data is not ready yet
 }
 
-void Serial::handleReadyRead()
+
+void Serial::dataReady()
 {
-    QByteArray data = m_serialPort->readAll();
-    emit dataReceived(data);
+    QByteArray data = readPacket();
+    if(data.size() != 0) emit packetReceived(data); //execute only with valid packet
+}
+
+// Function to calculate CRC16-CCITT
+uint16_t crc16(const uint8_t *data, size_t length) {
+    uint16_t crc = 0xFFFF;
+    for (size_t i = 0; i < length; i++) {
+        crc ^= (uint16_t)data[i] << 8;
+        for (uint8_t j = 0; j < 8; j++) {
+            if (crc & 0x8000) {
+                crc = (crc << 1) ^ 0x1021;
+            } else {
+                crc = crc << 1;
+            }
+        }
+    }
+    return crc;
 }

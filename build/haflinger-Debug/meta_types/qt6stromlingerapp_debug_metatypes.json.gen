@@ -145,9 +145,9 @@
                         "designable": true,
                         "final": false,
                         "index": 5,
-                        "member": "m_liters",
-                        "name": "liters",
-                        "notify": "s_liters",
+                        "member": "m_kwh",
+                        "name": "kwh",
+                        "notify": "s_kwh",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
@@ -159,9 +159,9 @@
                         "designable": true,
                         "final": false,
                         "index": 6,
-                        "member": "m_displayLiters",
-                        "name": "displayLiters",
-                        "notify": "s_displayLiters",
+                        "member": "m_displaykwh",
+                        "name": "displaykwh",
+                        "notify": "s_displaykwh",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
@@ -215,9 +215,9 @@
                         "designable": true,
                         "final": false,
                         "index": 10,
-                        "member": "m_fuelLevel",
-                        "name": "fuelLevel",
-                        "notify": "s_fuelLevel",
+                        "member": "m_voltage",
+                        "name": "voltage",
+                        "notify": "s_voltage",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
@@ -268,12 +268,12 @@
                     },
                     {
                         "access": "public",
-                        "name": "s_liters",
+                        "name": "s_kwh",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_displayLiters",
+                        "name": "s_displaykwh",
                         "returnType": "void"
                     },
                     {
@@ -293,7 +293,7 @@
                     },
                     {
                         "access": "public",
-                        "name": "s_fuelLevel",
+                        "name": "s_voltage",
                         "returnType": "void"
                     },
                     {
@@ -312,11 +312,11 @@
                         "access": "public",
                         "arguments": [
                             {
-                                "name": "data",
+                                "name": "packet",
                                 "type": "QByteArray"
                             }
                         ],
-                        "name": "handleSerialData",
+                        "name": "processPacket",
                         "returnType": "void"
                     }
                 ],
@@ -346,14 +346,14 @@
                                 "type": "QByteArray"
                             }
                         ],
-                        "name": "dataReceived",
+                        "name": "packetReceived",
                         "returnType": "void"
                     }
                 ],
                 "slots": [
                     {
                         "access": "private",
-                        "name": "handleReadyRead",
+                        "name": "dataReady",
                         "returnType": "void"
                     }
                 ],

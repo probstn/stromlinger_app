@@ -18,29 +18,29 @@ Module {
         Property { name: "kph"; type: "int"; notify: "s_kph"; index: 2 }
         Property { name: "displayKph"; type: "int"; notify: "s_displayKph"; index: 3 }
         Property { name: "displayKpl"; type: "int"; notify: "s_displayKpl"; index: 4 }
-        Property { name: "liters"; type: "int"; notify: "s_liters"; index: 5 }
-        Property { name: "displayLiters"; type: "int"; notify: "s_displayLiters"; index: 6 }
+        Property { name: "kwh"; type: "int"; notify: "s_kwh"; index: 5 }
+        Property { name: "displaykwh"; type: "int"; notify: "s_displaykwh"; index: 6 }
         Property { name: "displayRange"; type: "int"; notify: "s_displayRange"; index: 7 }
         Property { name: "currentGear"; type: "int"; notify: "s_currentGear"; index: 8 }
         Property { name: "engineTemp"; type: "bool"; notify: "s_engineTemp"; index: 9 }
-        Property { name: "fuelLevel"; type: "bool"; notify: "s_fuelLevel"; index: 10 }
+        Property { name: "voltage"; type: "bool"; notify: "s_voltage"; index: 10 }
         Property { name: "tireangle"; type: "int"; notify: "s_tireangle"; index: 11 }
         Signal { name: "s_rpm" }
         Signal { name: "s_displayRpm" }
         Signal { name: "s_kph" }
         Signal { name: "s_displayKph" }
         Signal { name: "s_displayKpl" }
-        Signal { name: "s_liters" }
-        Signal { name: "s_displayLiters" }
+        Signal { name: "s_kwh" }
+        Signal { name: "s_displaykwh" }
         Signal { name: "s_displayRange" }
         Signal { name: "s_currentGear" }
         Signal { name: "s_engineTemp" }
-        Signal { name: "s_fuelLevel" }
+        Signal { name: "s_voltage" }
         Signal { name: "s_tireangle" }
         Method { name: "demoSlot" }
         Method {
-            name: "handleSerialData"
-            Parameter { name: "data"; type: "QByteArray" }
+            name: "processPacket"
+            Parameter { name: "packet"; type: "QByteArray" }
         }
         Method { name: "updateSpeed" }
         Method { name: "updateRpm" }

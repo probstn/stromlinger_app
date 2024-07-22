@@ -65,8 +65,8 @@ QtObject {
     property string displayKpl: backend.displayKpl
 
     /* fuel gauge dial values */
-    property int liters: backend.liters /* controls the needle / arc position */
-    property string displayLiters: backend.displayLiters
+    property int liters: backend.voltage /* controls the needle / arc position */
+    property string displayLiters: backend.displayVoltage
     property string displayRange: backend.displayRange
 
     /* current gear */
@@ -74,7 +74,7 @@ QtObject {
 
     /* Iso Icons Boolean Values */
     property bool engineTemp: backend.engineTemp
-    property bool fuelLevel: backend.fuelLevel
+    property bool fuelLevel: backend.voltage
 
     /* State change bool */
     property bool booting: true

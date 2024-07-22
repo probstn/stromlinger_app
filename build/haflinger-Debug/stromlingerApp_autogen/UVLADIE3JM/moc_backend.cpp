@@ -46,16 +46,16 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "s_kph",
     "s_displayKph",
     "s_displayKpl",
-    "s_liters",
-    "s_displayLiters",
+    "s_kwh",
+    "s_displaykwh",
     "s_displayRange",
     "s_currentGear",
     "s_engineTemp",
-    "s_fuelLevel",
+    "s_voltage",
     "s_tireangle",
     "demoSlot",
-    "handleSerialData",
-    "data",
+    "processPacket",
+    "packet",
     "updateSpeed",
     "updateRpm",
     "updateFuel",
@@ -63,6 +63,7 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "updateTireAngle",
     "angle",
     "writeSerialData",
+    "data",
     "sendLeft",
     "sendRight",
     "sendCenter",
@@ -71,12 +72,12 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "kph",
     "displayKph",
     "displayKpl",
-    "liters",
-    "displayLiters",
+    "kwh",
+    "displaykwh",
     "displayRange",
     "currentGear",
     "engineTemp",
-    "fuelLevel",
+    "voltage",
     "tireangle"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
@@ -125,9 +126,9 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
       22,    0,  173,    4, 0x02,   31 /* Public */,
       23,    1,  174,    4, 0x02,   32 /* Public */,
       25,    1,  177,    4, 0x02,   34 /* Public */,
-      26,    0,  180,    4, 0x02,   36 /* Public */,
-      27,    0,  181,    4, 0x02,   37 /* Public */,
-      28,    0,  182,    4, 0x02,   38 /* Public */,
+      27,    0,  180,    4, 0x02,   36 /* Public */,
+      28,    0,  181,    4, 0x02,   37 /* Public */,
+      29,    0,  182,    4, 0x02,   38 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -153,24 +154,24 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, QMetaType::Int,   24,
-    QMetaType::Void, QMetaType::QString,   18,
+    QMetaType::Void, QMetaType::QString,   26,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
 
  // properties: name, type, flags
-      29, QMetaType::Int, 0x00015003, uint(0), 0,
-      30, QMetaType::Int, 0x00015003, uint(1), 0,
-      31, QMetaType::Int, 0x00015003, uint(2), 0,
-      32, QMetaType::Int, 0x00015003, uint(3), 0,
-      33, QMetaType::Int, 0x00015003, uint(4), 0,
-      34, QMetaType::Int, 0x00015003, uint(5), 0,
-      35, QMetaType::Int, 0x00015003, uint(6), 0,
-      36, QMetaType::Int, 0x00015003, uint(7), 0,
-      37, QMetaType::Int, 0x00015003, uint(8), 0,
-      38, QMetaType::Bool, 0x00015003, uint(9), 0,
-      39, QMetaType::Bool, 0x00015003, uint(10), 0,
-      40, QMetaType::Int, 0x00015003, uint(11), 0,
+      30, QMetaType::Int, 0x00015003, uint(0), 0,
+      31, QMetaType::Int, 0x00015003, uint(1), 0,
+      32, QMetaType::Int, 0x00015003, uint(2), 0,
+      33, QMetaType::Int, 0x00015003, uint(3), 0,
+      34, QMetaType::Int, 0x00015003, uint(4), 0,
+      35, QMetaType::Int, 0x00015003, uint(5), 0,
+      36, QMetaType::Int, 0x00015003, uint(6), 0,
+      37, QMetaType::Int, 0x00015003, uint(7), 0,
+      38, QMetaType::Int, 0x00015003, uint(8), 0,
+      39, QMetaType::Bool, 0x00015003, uint(9), 0,
+      40, QMetaType::Bool, 0x00015003, uint(10), 0,
+      41, QMetaType::Int, 0x00015003, uint(11), 0,
 
        0        // eod
 };
@@ -192,9 +193,9 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         int,
         // property 'displayKpl'
         int,
-        // property 'liters'
+        // property 'kwh'
         int,
-        // property 'displayLiters'
+        // property 'displaykwh'
         int,
         // property 'displayRange'
         int,
@@ -202,7 +203,7 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         int,
         // property 'engineTemp'
         bool,
-        // property 'fuelLevel'
+        // property 'voltage'
         bool,
         // property 'tireangle'
         int,
@@ -218,9 +219,9 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         void,
         // method 's_displayKpl'
         void,
-        // method 's_liters'
+        // method 's_kwh'
         void,
-        // method 's_displayLiters'
+        // method 's_displaykwh'
         void,
         // method 's_displayRange'
         void,
@@ -228,13 +229,13 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         void,
         // method 's_engineTemp'
         void,
-        // method 's_fuelLevel'
+        // method 's_voltage'
         void,
         // method 's_tireangle'
         void,
         // method 'demoSlot'
         void,
-        // method 'handleSerialData'
+        // method 'processPacket'
         void,
         const QByteArray &,
         // method 'updateSpeed'
@@ -272,15 +273,15 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 2: _t->s_kph(); break;
         case 3: _t->s_displayKph(); break;
         case 4: _t->s_displayKpl(); break;
-        case 5: _t->s_liters(); break;
-        case 6: _t->s_displayLiters(); break;
+        case 5: _t->s_kwh(); break;
+        case 6: _t->s_displaykwh(); break;
         case 7: _t->s_displayRange(); break;
         case 8: _t->s_currentGear(); break;
         case 9: _t->s_engineTemp(); break;
-        case 10: _t->s_fuelLevel(); break;
+        case 10: _t->s_voltage(); break;
         case 11: _t->s_tireangle(); break;
         case 12: _t->demoSlot(); break;
-        case 13: _t->handleSerialData((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
+        case 13: _t->processPacket((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
         case 14: _t->updateSpeed(); break;
         case 15: _t->updateRpm(); break;
         case 16: _t->updateFuel(); break;
@@ -331,14 +332,14 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_liters; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_kwh; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 5;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_displayLiters; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_displaykwh; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 6;
                 return;
             }
@@ -366,7 +367,7 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_fuelLevel; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_voltage; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 10;
                 return;
             }
@@ -388,12 +389,12 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 2: *reinterpret_cast< int*>(_v) = _t->m_kph; break;
         case 3: *reinterpret_cast< int*>(_v) = _t->m_displayKph; break;
         case 4: *reinterpret_cast< int*>(_v) = _t->m_displayKpl; break;
-        case 5: *reinterpret_cast< int*>(_v) = _t->m_liters; break;
-        case 6: *reinterpret_cast< int*>(_v) = _t->m_displayLiters; break;
+        case 5: *reinterpret_cast< int*>(_v) = _t->m_kwh; break;
+        case 6: *reinterpret_cast< int*>(_v) = _t->m_displaykwh; break;
         case 7: *reinterpret_cast< int*>(_v) = _t->m_displayRange; break;
         case 8: *reinterpret_cast< int*>(_v) = _t->m_currentGear; break;
         case 9: *reinterpret_cast< bool*>(_v) = _t->m_engineTemp; break;
-        case 10: *reinterpret_cast< bool*>(_v) = _t->m_fuelLevel; break;
+        case 10: *reinterpret_cast< bool*>(_v) = _t->m_voltage; break;
         case 11: *reinterpret_cast< int*>(_v) = _t->m_tireangle; break;
         default: break;
         }
@@ -433,15 +434,15 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
             }
             break;
         case 5:
-            if (_t->m_liters != *reinterpret_cast< int*>(_v)) {
-                _t->m_liters = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_liters();
+            if (_t->m_kwh != *reinterpret_cast< int*>(_v)) {
+                _t->m_kwh = *reinterpret_cast< int*>(_v);
+                Q_EMIT _t->s_kwh();
             }
             break;
         case 6:
-            if (_t->m_displayLiters != *reinterpret_cast< int*>(_v)) {
-                _t->m_displayLiters = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_displayLiters();
+            if (_t->m_displaykwh != *reinterpret_cast< int*>(_v)) {
+                _t->m_displaykwh = *reinterpret_cast< int*>(_v);
+                Q_EMIT _t->s_displaykwh();
             }
             break;
         case 7:
@@ -463,9 +464,9 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
             }
             break;
         case 10:
-            if (_t->m_fuelLevel != *reinterpret_cast< bool*>(_v)) {
-                _t->m_fuelLevel = *reinterpret_cast< bool*>(_v);
-                Q_EMIT _t->s_fuelLevel();
+            if (_t->m_voltage != *reinterpret_cast< bool*>(_v)) {
+                _t->m_voltage = *reinterpret_cast< bool*>(_v);
+                Q_EMIT _t->s_voltage();
             }
             break;
         case 11:
@@ -547,13 +548,13 @@ void Backend::s_displayKpl()
 }
 
 // SIGNAL 5
-void Backend::s_liters()
+void Backend::s_kwh()
 {
     QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
 }
 
 // SIGNAL 6
-void Backend::s_displayLiters()
+void Backend::s_displaykwh()
 {
     QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
 }
@@ -577,7 +578,7 @@ void Backend::s_engineTemp()
 }
 
 // SIGNAL 10
-void Backend::s_fuelLevel()
+void Backend::s_voltage()
 {
     QMetaObject::activate(this, &staticMetaObject, 10, nullptr);
 }

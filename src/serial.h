@@ -15,16 +15,18 @@ public:
     bool openSerialPort();
     void closeSerialPort();
     void writeData(const QByteArray &data);
-    QByteArray readData();
+    QByteArray readPacket();
 
 signals:
-    void dataReceived(const QByteArray &data);
+    void packetReceived(const QByteArray &data);
 
 private slots:
-    void handleReadyRead();
+    void dataReady();
 
 private:
     QSerialPort *m_serialPort;
 };
+
+uint16_t crc16(const uint8_t *data, size_t length);
 
 #endif // SERIAL_H
