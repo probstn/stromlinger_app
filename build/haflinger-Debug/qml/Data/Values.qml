@@ -55,33 +55,20 @@ import stromlinger
 QtObject {
     id: values
 
-    /* tachometer dial values */
-    property int rpm: backend.rpm // controls the needle / arc position
-    property string displayRpm: backend.displayRpm
+    property string rpmText: backend.rpmText
+    property real rpmDial: backend.rpmDial
+    property string speedText: backend.speedText
+    property real speedDial: backend.speedText
+    property string consumptionText: backend.consumptionText
+    property string voltageText: backend.voltageText
+    property real voltageDial: backend.voltageDial
+    property string rangeText: backend.rangeText
+    property bool motorTemp: backend.motorTemp
+    property bool escTemp: backend.escTemp
+    property int tireAngle: backend.tireAngle
 
-    /* speedometer dial values */
-    property real kph: backend.kph /* controls the needle / arc position */
-    property string displayKph: backend.displayKph
-    property string displayKpl: backend.displayKpl
-
-    /* fuel gauge dial values */
-    property int liters: backend.voltage /* controls the needle / arc position */
-    property string displayLiters: backend.displayVoltage
-    property string displayRange: backend.displayRange
-
-    /* current gear */
-    property int currentGear: backend.currentGear
-
-    /* Iso Icons Boolean Values */
-    property bool engineTemp: backend.engineTemp
-    property bool fuelLevel: backend.voltage
-
-    /* State change bool */
     property bool booting: true
     readonly property real bootDuration: 5000
-
-    /* Tires */
-    property int tireangle: backend.tireangle
 
     property Timer bootTimer: Timer{
         running: true
@@ -89,8 +76,8 @@ QtObject {
         onTriggered: values.booting = false
         interval: bootDuration
     }
-
-    property Timer rpmTimer: Timer{
+    /*
+    property Timer rpmTimer: Timer {
         running: !values.booting
         repeat: true
         onTriggered: backend.updateRpm();
@@ -110,4 +97,5 @@ QtObject {
         onTriggered: backend.updateMisc();
         interval: 1000
     }
+    */
 }

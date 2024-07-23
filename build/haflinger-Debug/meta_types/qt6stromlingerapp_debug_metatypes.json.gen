@@ -12,37 +12,6 @@
                 "methods": [
                     {
                         "access": "public",
-                        "name": "updateSpeed",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "name": "updateRpm",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "name": "updateFuel",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "name": "updateMisc",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
-                        "arguments": [
-                            {
-                                "name": "angle",
-                                "type": "int"
-                            }
-                        ],
-                        "name": "updateTireAngle",
-                        "returnType": "void"
-                    },
-                    {
-                        "access": "public",
                         "arguments": [
                             {
                                 "name": "data",
@@ -75,13 +44,13 @@
                         "designable": true,
                         "final": false,
                         "index": 0,
-                        "member": "m_rpm",
-                        "name": "rpm",
-                        "notify": "s_rpm",
+                        "member": "m_rpmText",
+                        "name": "rpmText",
+                        "notify": "s_rpmText",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "QString",
                         "user": false
                     },
                     {
@@ -89,13 +58,13 @@
                         "designable": true,
                         "final": false,
                         "index": 1,
-                        "member": "m_displayRpm",
-                        "name": "displayRpm",
-                        "notify": "s_displayRpm",
+                        "member": "m_rpmDial",
+                        "name": "rpmDial",
+                        "notify": "s_rpmDial",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "double",
                         "user": false
                     },
                     {
@@ -103,13 +72,13 @@
                         "designable": true,
                         "final": false,
                         "index": 2,
-                        "member": "m_kph",
-                        "name": "kph",
-                        "notify": "s_kph",
+                        "member": "m_speedText",
+                        "name": "speedText",
+                        "notify": "s_speedText",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "QString",
                         "user": false
                     },
                     {
@@ -117,13 +86,13 @@
                         "designable": true,
                         "final": false,
                         "index": 3,
-                        "member": "m_displayKph",
-                        "name": "displayKph",
-                        "notify": "s_displayKph",
+                        "member": "m_speedDial",
+                        "name": "speedDial",
+                        "notify": "s_speedDial",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "double",
                         "user": false
                     },
                     {
@@ -131,13 +100,13 @@
                         "designable": true,
                         "final": false,
                         "index": 4,
-                        "member": "m_displayKpl",
-                        "name": "displayKpl",
-                        "notify": "s_displayKpl",
+                        "member": "m_consumptionText",
+                        "name": "consumptionText",
+                        "notify": "s_consumptionText",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "QString",
                         "user": false
                     },
                     {
@@ -145,13 +114,13 @@
                         "designable": true,
                         "final": false,
                         "index": 5,
-                        "member": "m_kwh",
-                        "name": "kwh",
-                        "notify": "s_kwh",
+                        "member": "m_voltageText",
+                        "name": "voltageText",
+                        "notify": "s_voltageText",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "QString",
                         "user": false
                     },
                     {
@@ -159,13 +128,13 @@
                         "designable": true,
                         "final": false,
                         "index": 6,
-                        "member": "m_displaykwh",
-                        "name": "displaykwh",
-                        "notify": "s_displaykwh",
+                        "member": "m_voltageDial",
+                        "name": "voltageDial",
+                        "notify": "s_voltageDial",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "double",
                         "user": false
                     },
                     {
@@ -173,13 +142,13 @@
                         "designable": true,
                         "final": false,
                         "index": 7,
-                        "member": "m_displayRange",
-                        "name": "displayRange",
-                        "notify": "s_displayRange",
+                        "member": "m_rangeText",
+                        "name": "rangeText",
+                        "notify": "s_rangeText",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "QString",
                         "user": false
                     },
                     {
@@ -187,13 +156,13 @@
                         "designable": true,
                         "final": false,
                         "index": 8,
-                        "member": "m_currentGear",
-                        "name": "currentGear",
-                        "notify": "s_currentGear",
+                        "member": "m_motorTemp",
+                        "name": "motorTemp",
+                        "notify": "s_motorTemp",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
-                        "type": "int",
+                        "type": "bool",
                         "user": false
                     },
                     {
@@ -201,9 +170,9 @@
                         "designable": true,
                         "final": false,
                         "index": 9,
-                        "member": "m_engineTemp",
-                        "name": "engineTemp",
-                        "notify": "s_engineTemp",
+                        "member": "m_escTemp",
+                        "name": "escTemp",
+                        "notify": "s_escTemp",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
@@ -215,23 +184,9 @@
                         "designable": true,
                         "final": false,
                         "index": 10,
-                        "member": "m_voltage",
-                        "name": "voltage",
-                        "notify": "s_voltage",
-                        "required": false,
-                        "scriptable": true,
-                        "stored": true,
-                        "type": "bool",
-                        "user": false
-                    },
-                    {
-                        "constant": false,
-                        "designable": true,
-                        "final": false,
-                        "index": 11,
-                        "member": "m_tireangle",
-                        "name": "tireangle",
-                        "notify": "s_tireangle",
+                        "member": "m_tireAngle",
+                        "name": "tireAngle",
+                        "notify": "s_tireAngle",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
@@ -243,62 +198,67 @@
                 "signals": [
                     {
                         "access": "public",
-                        "name": "s_rpm",
+                        "name": "s_rpmText",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_displayRpm",
+                        "name": "s_rpmDial",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_kph",
+                        "name": "s_speedText",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_displayKph",
+                        "name": "s_speedDial",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_displayKpl",
+                        "name": "s_kphText",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_kwh",
+                        "name": "s_kphDial",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_displaykwh",
+                        "name": "s_consumptionText",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_displayRange",
+                        "name": "s_voltageText",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_currentGear",
+                        "name": "s_voltageDial",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_engineTemp",
+                        "name": "s_rangeText",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_voltage",
+                        "name": "s_motorTemp",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_tireangle",
+                        "name": "s_escTemp",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "s_tireAngle",
                         "returnType": "void"
                     }
                 ],

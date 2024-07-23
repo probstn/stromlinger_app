@@ -13,42 +13,34 @@ Module {
         prototype: "QObject"
         exports: ["Main/Backend 1.0"]
         exportMetaObjectRevisions: [256]
-        Property { name: "rpm"; type: "int"; notify: "s_rpm"; index: 0 }
-        Property { name: "displayRpm"; type: "int"; notify: "s_displayRpm"; index: 1 }
-        Property { name: "kph"; type: "int"; notify: "s_kph"; index: 2 }
-        Property { name: "displayKph"; type: "int"; notify: "s_displayKph"; index: 3 }
-        Property { name: "displayKpl"; type: "int"; notify: "s_displayKpl"; index: 4 }
-        Property { name: "kwh"; type: "int"; notify: "s_kwh"; index: 5 }
-        Property { name: "displaykwh"; type: "int"; notify: "s_displaykwh"; index: 6 }
-        Property { name: "displayRange"; type: "int"; notify: "s_displayRange"; index: 7 }
-        Property { name: "currentGear"; type: "int"; notify: "s_currentGear"; index: 8 }
-        Property { name: "engineTemp"; type: "bool"; notify: "s_engineTemp"; index: 9 }
-        Property { name: "voltage"; type: "bool"; notify: "s_voltage"; index: 10 }
-        Property { name: "tireangle"; type: "int"; notify: "s_tireangle"; index: 11 }
-        Signal { name: "s_rpm" }
-        Signal { name: "s_displayRpm" }
-        Signal { name: "s_kph" }
-        Signal { name: "s_displayKph" }
-        Signal { name: "s_displayKpl" }
-        Signal { name: "s_kwh" }
-        Signal { name: "s_displaykwh" }
-        Signal { name: "s_displayRange" }
-        Signal { name: "s_currentGear" }
-        Signal { name: "s_engineTemp" }
-        Signal { name: "s_voltage" }
-        Signal { name: "s_tireangle" }
+        Property { name: "rpmText"; type: "QString"; notify: "s_rpmText"; index: 0 }
+        Property { name: "rpmDial"; type: "double"; notify: "s_rpmDial"; index: 1 }
+        Property { name: "speedText"; type: "QString"; notify: "s_speedText"; index: 2 }
+        Property { name: "speedDial"; type: "double"; notify: "s_speedDial"; index: 3 }
+        Property { name: "consumptionText"; type: "QString"; notify: "s_consumptionText"; index: 4 }
+        Property { name: "voltageText"; type: "QString"; notify: "s_voltageText"; index: 5 }
+        Property { name: "voltageDial"; type: "double"; notify: "s_voltageDial"; index: 6 }
+        Property { name: "rangeText"; type: "QString"; notify: "s_rangeText"; index: 7 }
+        Property { name: "motorTemp"; type: "bool"; notify: "s_motorTemp"; index: 8 }
+        Property { name: "escTemp"; type: "bool"; notify: "s_escTemp"; index: 9 }
+        Property { name: "tireAngle"; type: "int"; notify: "s_tireAngle"; index: 10 }
+        Signal { name: "s_rpmText" }
+        Signal { name: "s_rpmDial" }
+        Signal { name: "s_speedText" }
+        Signal { name: "s_speedDial" }
+        Signal { name: "s_kphText" }
+        Signal { name: "s_kphDial" }
+        Signal { name: "s_consumptionText" }
+        Signal { name: "s_voltageText" }
+        Signal { name: "s_voltageDial" }
+        Signal { name: "s_rangeText" }
+        Signal { name: "s_motorTemp" }
+        Signal { name: "s_escTemp" }
+        Signal { name: "s_tireAngle" }
         Method { name: "demoSlot" }
         Method {
             name: "processPacket"
             Parameter { name: "packet"; type: "QByteArray" }
-        }
-        Method { name: "updateSpeed" }
-        Method { name: "updateRpm" }
-        Method { name: "updateFuel" }
-        Method { name: "updateMisc" }
-        Method {
-            name: "updateTireAngle"
-            Parameter { name: "angle"; type: "int" }
         }
         Method {
             name: "writeSerialData"

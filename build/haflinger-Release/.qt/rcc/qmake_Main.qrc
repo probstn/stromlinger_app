@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/Main">
-    <file alias="qmldir">/home/niklas/stromlinger/build/haflinger-Release/qml/Main/qmldir</file>
-  </qresource>
-</RCC>
-

@@ -40,7 +40,7 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         source: "../assets/tires.webp"
         anchors.verticalCenterOffset: 0
-        rotation: Data.Values.tireangle
+        rotation: Data.Values.tireAngle
         anchors.horizontalCenterOffset: -142
         anchors.horizontalCenter: parent.horizontalCenter
         fillMode: Image.PreserveAspectFit
@@ -71,7 +71,7 @@ Item {
         anchors.verticalCenter: parent.verticalCenter
         source: "../assets/tires.webp"
         anchors.verticalCenterOffset: 0
-        rotation: Data.Values.tireangle
+        rotation: Data.Values.tireAngle
         anchors.horizontalCenterOffset: 142
         anchors.horizontalCenter: parent.horizontalCenter
         fillMode: Image.PreserveAspectFit
@@ -81,7 +81,7 @@ Item {
         id: rotation_number
         visible: true
         color: "#ffffff"
-        text: Data.Values.tireangle + "°"
+        text: Data.Values.tireAngle + "°"
         anchors.verticalCenter: parent.verticalCenter
         font.pixelSize: 30
         horizontalAlignment: Text.AlignHCenter

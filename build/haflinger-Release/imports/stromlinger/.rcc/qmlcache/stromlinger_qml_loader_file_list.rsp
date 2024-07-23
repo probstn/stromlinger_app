@@ -1,8 +1,0 @@
---resource
-/home/niklas/stromlinger/build/haflinger-Release/imports/stromlinger/.qt/rcc/qmake_stromlinger.qrc
---resource
-/home/niklas/stromlinger/build/haflinger-Release/imports/stromlinger/.qt/rcc/stromlinger_raw_qml_0.qrc
-/qt/qml/stromlinger/Constants.qml
-/qt/qml/stromlinger/DirectoryFontLoader.qml
-/qt/qml/stromlinger/EventListModel.qml
-/qt/qml/stromlinger/EventListSimulator.qml

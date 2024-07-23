@@ -1,4 +1,0 @@
-module Main
-typeinfo stromlingerApp.qmltypes
-prefer :/qt/qml/Main/
-

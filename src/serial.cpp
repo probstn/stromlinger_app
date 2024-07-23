@@ -137,7 +137,7 @@ QByteArray Serial::readPacket() {
                 uint16_t packetReceivedChecksum = ((packet[CRC_MSB] << 8) | packet[CRC_LSB]);
                 //qDebug() << packet[CRC_MSB] << packet[CRC_LSB] << ((checksum >> 8) & 0xFF) << (checksum & 0xFF);
                 if(packetCalculatedChecksum == packetReceivedChecksum) {
-                    return QByteArray::fromRawData(reinterpret_cast<const char*>(packet), sizeof(packet));
+                    return packet;
                 }
             }        
         }

@@ -60,9 +60,9 @@ Item {
     height: 550
     visible: true
     clip: false
-    property alias rangeDisplay: _kilometers_195_11.text
-    property alias litersDisplay: _liters_195_10.text
-    property alias fuelFrame: fuelTimeline.currentFrame
+    property alias rangeText: range_text.text
+    property alias voltageText: voltage_text.text
+    property alias voltageDial: voltageTimeline.currentFrame
 
     Item {
         id: item2
@@ -83,7 +83,7 @@ Item {
             x: 71
             y: 250
             Text {
-                id: _kilometers_195_11
+                id: voltage_text
                 x: -41
                 y: -5
                 width: 210
@@ -112,7 +112,7 @@ Item {
             x: 96
             y: 144
             Text {
-                id: _liters_195_10
+                id: range_text
                 x: -66
                 y: 24
                 width: 208
@@ -410,7 +410,7 @@ Item {
     }
 
     Timeline {
-        id: fuelTimeline
+        id: voltageTimeline
         animations: [
             TimelineAnimation {
                 id: timelineAnimation

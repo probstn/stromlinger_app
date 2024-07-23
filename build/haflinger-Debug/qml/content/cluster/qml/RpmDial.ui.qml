@@ -57,8 +57,8 @@ Item {
     id: rpm_dial_195_83
     width: 450
     height: 550
-    property alias displayRpm: rpm_num_readout_195_49.text
-    property alias rpmFrame: rpmTimeline.currentFrame
+    property alias rpmText: rpm_num_readout_195_49.text
+    property alias rpmDial: rpmTimeline.currentFrame
 
     Item {
         id: item2
@@ -196,7 +196,7 @@ Item {
                 width: 210
                 height: 82
                 color: "#FFFFFF"
-                text: "8999"
+                text: "0000"
                 horizontalAlignment: Text.AlignHCenter
                 font.pixelSize: 62
                 font.family: "Cherry"

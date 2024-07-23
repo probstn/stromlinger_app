@@ -1,9 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/stromlinger/">
-    <file alias="Constants.qml">/home/niklas/stromlinger/imports/stromlinger/Constants.qml</file>
-    <file alias="DirectoryFontLoader.qml">/home/niklas/stromlinger/imports/stromlinger/DirectoryFontLoader.qml</file>
-    <file alias="EventListModel.qml">/home/niklas/stromlinger/imports/stromlinger/EventListModel.qml</file>
-    <file alias="EventListSimulator.qml">/home/niklas/stromlinger/imports/stromlinger/EventListSimulator.qml</file>
-  </qresource>
-</RCC>
-

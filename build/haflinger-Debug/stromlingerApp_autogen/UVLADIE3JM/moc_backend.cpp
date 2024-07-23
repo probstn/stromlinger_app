@@ -40,45 +40,39 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "Backend",
     "QML.Element",
     "auto",
-    "s_rpm",
+    "s_rpmText",
     "",
-    "s_displayRpm",
-    "s_kph",
-    "s_displayKph",
-    "s_displayKpl",
-    "s_kwh",
-    "s_displaykwh",
-    "s_displayRange",
-    "s_currentGear",
-    "s_engineTemp",
-    "s_voltage",
-    "s_tireangle",
+    "s_rpmDial",
+    "s_speedText",
+    "s_speedDial",
+    "s_kphText",
+    "s_kphDial",
+    "s_consumptionText",
+    "s_voltageText",
+    "s_voltageDial",
+    "s_rangeText",
+    "s_motorTemp",
+    "s_escTemp",
+    "s_tireAngle",
     "demoSlot",
     "processPacket",
     "packet",
-    "updateSpeed",
-    "updateRpm",
-    "updateFuel",
-    "updateMisc",
-    "updateTireAngle",
-    "angle",
     "writeSerialData",
     "data",
     "sendLeft",
     "sendRight",
     "sendCenter",
-    "rpm",
-    "displayRpm",
-    "kph",
-    "displayKph",
-    "displayKpl",
-    "kwh",
-    "displaykwh",
-    "displayRange",
-    "currentGear",
-    "engineTemp",
-    "voltage",
-    "tireangle"
+    "rpmText",
+    "rpmDial",
+    "speedText",
+    "speedDial",
+    "consumptionText",
+    "voltageText",
+    "voltageDial",
+    "rangeText",
+    "motorTemp",
+    "escTemp",
+    "tireAngle"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -91,46 +85,43 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
       12,       // revision
        0,       // classname
        1,   14, // classinfo
-      23,   16, // methods
-      12,  183, // properties
+      19,   16, // methods
+      11,  153, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-      12,       // signalCount
+      13,       // signalCount
 
  // classinfo: key, value
        1,    2,
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,  154,    4, 0x06,   13 /* Public */,
-       5,    0,  155,    4, 0x06,   14 /* Public */,
-       6,    0,  156,    4, 0x06,   15 /* Public */,
-       7,    0,  157,    4, 0x06,   16 /* Public */,
-       8,    0,  158,    4, 0x06,   17 /* Public */,
-       9,    0,  159,    4, 0x06,   18 /* Public */,
-      10,    0,  160,    4, 0x06,   19 /* Public */,
-      11,    0,  161,    4, 0x06,   20 /* Public */,
-      12,    0,  162,    4, 0x06,   21 /* Public */,
-      13,    0,  163,    4, 0x06,   22 /* Public */,
-      14,    0,  164,    4, 0x06,   23 /* Public */,
-      15,    0,  165,    4, 0x06,   24 /* Public */,
+       3,    0,  130,    4, 0x06,   12 /* Public */,
+       5,    0,  131,    4, 0x06,   13 /* Public */,
+       6,    0,  132,    4, 0x06,   14 /* Public */,
+       7,    0,  133,    4, 0x06,   15 /* Public */,
+       8,    0,  134,    4, 0x06,   16 /* Public */,
+       9,    0,  135,    4, 0x06,   17 /* Public */,
+      10,    0,  136,    4, 0x06,   18 /* Public */,
+      11,    0,  137,    4, 0x06,   19 /* Public */,
+      12,    0,  138,    4, 0x06,   20 /* Public */,
+      13,    0,  139,    4, 0x06,   21 /* Public */,
+      14,    0,  140,    4, 0x06,   22 /* Public */,
+      15,    0,  141,    4, 0x06,   23 /* Public */,
+      16,    0,  142,    4, 0x06,   24 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      16,    0,  166,    4, 0x0a,   25 /* Public */,
-      17,    1,  167,    4, 0x0a,   26 /* Public */,
+      17,    0,  143,    4, 0x0a,   25 /* Public */,
+      18,    1,  144,    4, 0x0a,   26 /* Public */,
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-      19,    0,  170,    4, 0x02,   28 /* Public */,
-      20,    0,  171,    4, 0x02,   29 /* Public */,
-      21,    0,  172,    4, 0x02,   30 /* Public */,
-      22,    0,  173,    4, 0x02,   31 /* Public */,
-      23,    1,  174,    4, 0x02,   32 /* Public */,
-      25,    1,  177,    4, 0x02,   34 /* Public */,
-      27,    0,  180,    4, 0x02,   36 /* Public */,
-      28,    0,  181,    4, 0x02,   37 /* Public */,
-      29,    0,  182,    4, 0x02,   38 /* Public */,
+      20,    1,  147,    4, 0x02,   28 /* Public */,
+      22,    0,  150,    4, 0x02,   30 /* Public */,
+      23,    0,  151,    4, 0x02,   31 /* Public */,
+      24,    0,  152,    4, 0x02,   32 /* Public */,
 
  // signals: parameters
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -146,32 +137,26 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QByteArray,   18,
+    QMetaType::Void, QMetaType::QByteArray,   19,
 
  // methods: parameters
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void,
-    QMetaType::Void, QMetaType::Int,   24,
-    QMetaType::Void, QMetaType::QString,   26,
+    QMetaType::Void, QMetaType::QString,   21,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
 
  // properties: name, type, flags
-      30, QMetaType::Int, 0x00015003, uint(0), 0,
-      31, QMetaType::Int, 0x00015003, uint(1), 0,
-      32, QMetaType::Int, 0x00015003, uint(2), 0,
-      33, QMetaType::Int, 0x00015003, uint(3), 0,
-      34, QMetaType::Int, 0x00015003, uint(4), 0,
-      35, QMetaType::Int, 0x00015003, uint(5), 0,
-      36, QMetaType::Int, 0x00015003, uint(6), 0,
-      37, QMetaType::Int, 0x00015003, uint(7), 0,
-      38, QMetaType::Int, 0x00015003, uint(8), 0,
-      39, QMetaType::Bool, 0x00015003, uint(9), 0,
-      40, QMetaType::Bool, 0x00015003, uint(10), 0,
-      41, QMetaType::Int, 0x00015003, uint(11), 0,
+      25, QMetaType::QString, 0x00015003, uint(0), 0,
+      26, QMetaType::Double, 0x00015003, uint(1), 0,
+      27, QMetaType::QString, 0x00015003, uint(2), 0,
+      28, QMetaType::Double, 0x00015003, uint(3), 0,
+      29, QMetaType::QString, 0x00015003, uint(6), 0,
+      30, QMetaType::QString, 0x00015003, uint(7), 0,
+      31, QMetaType::Double, 0x00015003, uint(8), 0,
+      32, QMetaType::QString, 0x00015003, uint(9), 0,
+      33, QMetaType::Bool, 0x00015003, uint(10), 0,
+      34, QMetaType::Bool, 0x00015003, uint(11), 0,
+      35, QMetaType::Int, 0x00015003, uint(12), 0,
 
        0        // eod
 };
@@ -183,72 +168,61 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
     qt_static_metacall,
     nullptr,
     qt_metaTypeArray<
-        // property 'rpm'
-        int,
-        // property 'displayRpm'
-        int,
-        // property 'kph'
-        int,
-        // property 'displayKph'
-        int,
-        // property 'displayKpl'
-        int,
-        // property 'kwh'
-        int,
-        // property 'displaykwh'
-        int,
-        // property 'displayRange'
-        int,
-        // property 'currentGear'
-        int,
-        // property 'engineTemp'
+        // property 'rpmText'
+        QString,
+        // property 'rpmDial'
+        double,
+        // property 'speedText'
+        QString,
+        // property 'speedDial'
+        double,
+        // property 'consumptionText'
+        QString,
+        // property 'voltageText'
+        QString,
+        // property 'voltageDial'
+        double,
+        // property 'rangeText'
+        QString,
+        // property 'motorTemp'
         bool,
-        // property 'voltage'
+        // property 'escTemp'
         bool,
-        // property 'tireangle'
+        // property 'tireAngle'
         int,
         // Q_OBJECT / Q_GADGET
         Backend,
-        // method 's_rpm'
+        // method 's_rpmText'
         void,
-        // method 's_displayRpm'
+        // method 's_rpmDial'
         void,
-        // method 's_kph'
+        // method 's_speedText'
         void,
-        // method 's_displayKph'
+        // method 's_speedDial'
         void,
-        // method 's_displayKpl'
+        // method 's_kphText'
         void,
-        // method 's_kwh'
+        // method 's_kphDial'
         void,
-        // method 's_displaykwh'
+        // method 's_consumptionText'
         void,
-        // method 's_displayRange'
+        // method 's_voltageText'
         void,
-        // method 's_currentGear'
+        // method 's_voltageDial'
         void,
-        // method 's_engineTemp'
+        // method 's_rangeText'
         void,
-        // method 's_voltage'
+        // method 's_motorTemp'
         void,
-        // method 's_tireangle'
+        // method 's_escTemp'
+        void,
+        // method 's_tireAngle'
         void,
         // method 'demoSlot'
         void,
         // method 'processPacket'
         void,
         const QByteArray &,
-        // method 'updateSpeed'
-        void,
-        // method 'updateRpm'
-        void,
-        // method 'updateFuel'
-        void,
-        // method 'updateMisc'
-        void,
-        // method 'updateTireAngle'
-        void,
-        int,
         // method 'writeSerialData'
         void,
         const QString &,
@@ -268,114 +242,117 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         auto *_t = static_cast<Backend *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->s_rpm(); break;
-        case 1: _t->s_displayRpm(); break;
-        case 2: _t->s_kph(); break;
-        case 3: _t->s_displayKph(); break;
-        case 4: _t->s_displayKpl(); break;
-        case 5: _t->s_kwh(); break;
-        case 6: _t->s_displaykwh(); break;
-        case 7: _t->s_displayRange(); break;
-        case 8: _t->s_currentGear(); break;
-        case 9: _t->s_engineTemp(); break;
-        case 10: _t->s_voltage(); break;
-        case 11: _t->s_tireangle(); break;
-        case 12: _t->demoSlot(); break;
-        case 13: _t->processPacket((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
-        case 14: _t->updateSpeed(); break;
-        case 15: _t->updateRpm(); break;
-        case 16: _t->updateFuel(); break;
-        case 17: _t->updateMisc(); break;
-        case 18: _t->updateTireAngle((*reinterpret_cast< std::add_pointer_t<int>>(_a[1]))); break;
-        case 19: _t->writeSerialData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
-        case 20: _t->sendLeft(); break;
-        case 21: _t->sendRight(); break;
-        case 22: _t->sendCenter(); break;
+        case 0: _t->s_rpmText(); break;
+        case 1: _t->s_rpmDial(); break;
+        case 2: _t->s_speedText(); break;
+        case 3: _t->s_speedDial(); break;
+        case 4: _t->s_kphText(); break;
+        case 5: _t->s_kphDial(); break;
+        case 6: _t->s_consumptionText(); break;
+        case 7: _t->s_voltageText(); break;
+        case 8: _t->s_voltageDial(); break;
+        case 9: _t->s_rangeText(); break;
+        case 10: _t->s_motorTemp(); break;
+        case 11: _t->s_escTemp(); break;
+        case 12: _t->s_tireAngle(); break;
+        case 13: _t->demoSlot(); break;
+        case 14: _t->processPacket((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
+        case 15: _t->writeSerialData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 16: _t->sendLeft(); break;
+        case 17: _t->sendRight(); break;
+        case 18: _t->sendCenter(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_rpm; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_rpmText; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 0;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_displayRpm; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_rpmDial; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 1;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_kph; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_speedText; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 2;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_displayKph; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_speedDial; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 3;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_displayKpl; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_kphText; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 4;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_kwh; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_kphDial; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 5;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_displaykwh; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_consumptionText; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 6;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_displayRange; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_voltageText; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 7;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_currentGear; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_voltageDial; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 8;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_engineTemp; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_rangeText; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 9;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_voltage; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_motorTemp; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 10;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_tireangle; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_escTemp; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 11;
+                return;
+            }
+        }
+        {
+            using _t = void (Backend::*)();
+            if (_t _q_method = &Backend::s_tireAngle; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 12;
                 return;
             }
         }
@@ -384,18 +361,17 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         (void)_t;
         void *_v = _a[0];
         switch (_id) {
-        case 0: *reinterpret_cast< int*>(_v) = _t->m_rpm; break;
-        case 1: *reinterpret_cast< int*>(_v) = _t->m_displayRpm; break;
-        case 2: *reinterpret_cast< int*>(_v) = _t->m_kph; break;
-        case 3: *reinterpret_cast< int*>(_v) = _t->m_displayKph; break;
-        case 4: *reinterpret_cast< int*>(_v) = _t->m_displayKpl; break;
-        case 5: *reinterpret_cast< int*>(_v) = _t->m_kwh; break;
-        case 6: *reinterpret_cast< int*>(_v) = _t->m_displaykwh; break;
-        case 7: *reinterpret_cast< int*>(_v) = _t->m_displayRange; break;
-        case 8: *reinterpret_cast< int*>(_v) = _t->m_currentGear; break;
-        case 9: *reinterpret_cast< bool*>(_v) = _t->m_engineTemp; break;
-        case 10: *reinterpret_cast< bool*>(_v) = _t->m_voltage; break;
-        case 11: *reinterpret_cast< int*>(_v) = _t->m_tireangle; break;
+        case 0: *reinterpret_cast< QString*>(_v) = _t->m_rpmText; break;
+        case 1: *reinterpret_cast< double*>(_v) = _t->m_rpmDial; break;
+        case 2: *reinterpret_cast< QString*>(_v) = _t->m_speedText; break;
+        case 3: *reinterpret_cast< double*>(_v) = _t->m_speedDial; break;
+        case 4: *reinterpret_cast< QString*>(_v) = _t->m_consumptionText; break;
+        case 5: *reinterpret_cast< QString*>(_v) = _t->m_voltageText; break;
+        case 6: *reinterpret_cast< double*>(_v) = _t->m_voltageDial; break;
+        case 7: *reinterpret_cast< QString*>(_v) = _t->m_rangeText; break;
+        case 8: *reinterpret_cast< bool*>(_v) = _t->m_motorTemp; break;
+        case 9: *reinterpret_cast< bool*>(_v) = _t->m_escTemp; break;
+        case 10: *reinterpret_cast< int*>(_v) = _t->m_tireAngle; break;
         default: break;
         }
     } else if (_c == QMetaObject::WriteProperty) {
@@ -404,75 +380,69 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         void *_v = _a[0];
         switch (_id) {
         case 0:
-            if (_t->m_rpm != *reinterpret_cast< int*>(_v)) {
-                _t->m_rpm = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_rpm();
+            if (_t->m_rpmText != *reinterpret_cast< QString*>(_v)) {
+                _t->m_rpmText = *reinterpret_cast< QString*>(_v);
+                Q_EMIT _t->s_rpmText();
             }
             break;
         case 1:
-            if (_t->m_displayRpm != *reinterpret_cast< int*>(_v)) {
-                _t->m_displayRpm = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_displayRpm();
+            if (_t->m_rpmDial != *reinterpret_cast< double*>(_v)) {
+                _t->m_rpmDial = *reinterpret_cast< double*>(_v);
+                Q_EMIT _t->s_rpmDial();
             }
             break;
         case 2:
-            if (_t->m_kph != *reinterpret_cast< int*>(_v)) {
-                _t->m_kph = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_kph();
+            if (_t->m_speedText != *reinterpret_cast< QString*>(_v)) {
+                _t->m_speedText = *reinterpret_cast< QString*>(_v);
+                Q_EMIT _t->s_speedText();
             }
             break;
         case 3:
-            if (_t->m_displayKph != *reinterpret_cast< int*>(_v)) {
-                _t->m_displayKph = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_displayKph();
+            if (_t->m_speedDial != *reinterpret_cast< double*>(_v)) {
+                _t->m_speedDial = *reinterpret_cast< double*>(_v);
+                Q_EMIT _t->s_speedDial();
             }
             break;
         case 4:
-            if (_t->m_displayKpl != *reinterpret_cast< int*>(_v)) {
-                _t->m_displayKpl = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_displayKpl();
+            if (_t->m_consumptionText != *reinterpret_cast< QString*>(_v)) {
+                _t->m_consumptionText = *reinterpret_cast< QString*>(_v);
+                Q_EMIT _t->s_consumptionText();
             }
             break;
         case 5:
-            if (_t->m_kwh != *reinterpret_cast< int*>(_v)) {
-                _t->m_kwh = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_kwh();
+            if (_t->m_voltageText != *reinterpret_cast< QString*>(_v)) {
+                _t->m_voltageText = *reinterpret_cast< QString*>(_v);
+                Q_EMIT _t->s_voltageText();
             }
             break;
         case 6:
-            if (_t->m_displaykwh != *reinterpret_cast< int*>(_v)) {
-                _t->m_displaykwh = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_displaykwh();
+            if (_t->m_voltageDial != *reinterpret_cast< double*>(_v)) {
+                _t->m_voltageDial = *reinterpret_cast< double*>(_v);
+                Q_EMIT _t->s_voltageDial();
             }
             break;
         case 7:
-            if (_t->m_displayRange != *reinterpret_cast< int*>(_v)) {
-                _t->m_displayRange = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_displayRange();
+            if (_t->m_rangeText != *reinterpret_cast< QString*>(_v)) {
+                _t->m_rangeText = *reinterpret_cast< QString*>(_v);
+                Q_EMIT _t->s_rangeText();
             }
             break;
         case 8:
-            if (_t->m_currentGear != *reinterpret_cast< int*>(_v)) {
-                _t->m_currentGear = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_currentGear();
+            if (_t->m_motorTemp != *reinterpret_cast< bool*>(_v)) {
+                _t->m_motorTemp = *reinterpret_cast< bool*>(_v);
+                Q_EMIT _t->s_motorTemp();
             }
             break;
         case 9:
-            if (_t->m_engineTemp != *reinterpret_cast< bool*>(_v)) {
-                _t->m_engineTemp = *reinterpret_cast< bool*>(_v);
-                Q_EMIT _t->s_engineTemp();
+            if (_t->m_escTemp != *reinterpret_cast< bool*>(_v)) {
+                _t->m_escTemp = *reinterpret_cast< bool*>(_v);
+                Q_EMIT _t->s_escTemp();
             }
             break;
         case 10:
-            if (_t->m_voltage != *reinterpret_cast< bool*>(_v)) {
-                _t->m_voltage = *reinterpret_cast< bool*>(_v);
-                Q_EMIT _t->s_voltage();
-            }
-            break;
-        case 11:
-            if (_t->m_tireangle != *reinterpret_cast< int*>(_v)) {
-                _t->m_tireangle = *reinterpret_cast< int*>(_v);
-                Q_EMIT _t->s_tireangle();
+            if (_t->m_tireAngle != *reinterpret_cast< int*>(_v)) {
+                _t->m_tireAngle = *reinterpret_cast< int*>(_v);
+                Q_EMIT _t->s_tireAngle();
             }
             break;
         default: break;
@@ -501,91 +471,97 @@ int Backend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 23)
+        if (_id < 19)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 23;
+        _id -= 19;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 23)
+        if (_id < 19)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 23;
+        _id -= 19;
     }else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
-        _id -= 12;
+        _id -= 11;
     }
     return _id;
 }
 
 // SIGNAL 0
-void Backend::s_rpm()
+void Backend::s_rpmText()
 {
     QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
 }
 
 // SIGNAL 1
-void Backend::s_displayRpm()
+void Backend::s_rpmDial()
 {
     QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
 }
 
 // SIGNAL 2
-void Backend::s_kph()
+void Backend::s_speedText()
 {
     QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
 }
 
 // SIGNAL 3
-void Backend::s_displayKph()
+void Backend::s_speedDial()
 {
     QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
 }
 
 // SIGNAL 4
-void Backend::s_displayKpl()
+void Backend::s_kphText()
 {
     QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
 }
 
 // SIGNAL 5
-void Backend::s_kwh()
+void Backend::s_kphDial()
 {
     QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
 }
 
 // SIGNAL 6
-void Backend::s_displaykwh()
+void Backend::s_consumptionText()
 {
     QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
 }
 
 // SIGNAL 7
-void Backend::s_displayRange()
+void Backend::s_voltageText()
 {
     QMetaObject::activate(this, &staticMetaObject, 7, nullptr);
 }
 
 // SIGNAL 8
-void Backend::s_currentGear()
+void Backend::s_voltageDial()
 {
     QMetaObject::activate(this, &staticMetaObject, 8, nullptr);
 }
 
 // SIGNAL 9
-void Backend::s_engineTemp()
+void Backend::s_rangeText()
 {
     QMetaObject::activate(this, &staticMetaObject, 9, nullptr);
 }
 
 // SIGNAL 10
-void Backend::s_voltage()
+void Backend::s_motorTemp()
 {
     QMetaObject::activate(this, &staticMetaObject, 10, nullptr);
 }
 
 // SIGNAL 11
-void Backend::s_tireangle()
+void Backend::s_escTemp()
 {
     QMetaObject::activate(this, &staticMetaObject, 11, nullptr);
+}
+
+// SIGNAL 12
+void Backend::s_tireAngle()
+{
+    QMetaObject::activate(this, &staticMetaObject, 12, nullptr);
 }
 QT_WARNING_POP

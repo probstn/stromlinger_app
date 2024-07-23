@@ -57,9 +57,9 @@ Item {
     id: speed_dial_195_151
     width: 610
     height: 548
-    property alias kphDisplay: kph_number_195_91.text
-    property alias kplDisplay: kpl_number_195_93.text
-    property alias kphFrame: kphTimeline.currentFrame
+    property alias speedText: speed_text.text
+    property alias speedDial: speed_timeline.currentFrame
+    property alias consumptionText: consumption_text.text
 
     Image {
         id: speed_dial_195_151Asset
@@ -457,20 +457,20 @@ Item {
     }
 
     Text {
-        id: kpl_number_195_93
+        id: consumption_text
         x: 192
         y: 315
         width: 219
         height: 57
         color: "#FFFFFF"
-        text: "15.5"
+        text: "00.0"
         horizontalAlignment: Text.AlignHCenter
         font.pixelSize: 42
         font.family: "Cherry"
     }
 
     Text {
-        id: kpl_readout_195_118
+        id: consumption_unit
         x: 242
         y: 371
         color: "#FFFFFF"
@@ -481,24 +481,24 @@ Item {
     }
 
     Text {
-        id: kph_number_195_91
+        id: speed_text
         x: 187
         y: 201
         width: 230
         height: 98
         color: "#FFFFFF"
-        text: "140"
+        text: "00"
         horizontalAlignment: Text.AlignHCenter
         font.pixelSize: 72
         font.family: "Cherry"
     }
 
     Text {
-        id: kph_readout_195_117
-        x: 277
+        id: speed_unit
+        x: 270
         y: 173
         color: "#FFFFFF"
-        text: "KPH"
+        text: "KMH"
         font.weight: Font.ExtraLight
         font.pixelSize: 30
         font.family: "IBM Plex Mono"
@@ -534,7 +534,7 @@ Item {
     }
 
     Timeline {
-        id: kphTimeline
+        id: speed_timeline
         animations: [
             TimelineAnimation {
                 id: timelineAnimation

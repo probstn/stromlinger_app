@@ -1,5 +1,5 @@
 The target system is: Linux -  - arm
-The host system is: Linux - 6.5.0-41-generic - x86_64
+The host system is: Linux - 6.5.0-44-generic - x86_64
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /opt/cross-pi-gcc/bin/aarch64-linux-gnu-g++ 
 Build flags: ;-isystem=/usr/include;-isystem=/usr/local/include;-isystem=/usr/include/aarch64-linux-gnu
@@ -16,7 +16,7 @@ The CXX compiler identification is GNU, found in "/home/niklas/stromlinger/build
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/niklas/stromlinger/build/haflinger-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_06fcf && [1/2] Building CXX object CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o
+Run Build Command(s):/usr/bin/ninja cmTC_a4498 && [1/2] Building CXX object CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o
 Using built-in specs.
 COLLECT_GCC=/opt/cross-pi-gcc/bin/aarch64-linux-gnu-g++
 Target: aarch64-linux-gnu
@@ -24,8 +24,8 @@ Configured with: ../gcc-12.2.0/configure --prefix=/opt/cross-pi-gcc --target=aar
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_06fcf.dir/'
- /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/cc1plus -quiet -v -isysroot /home/niklas/haflinger/rpi-sysroot -D_GNU_SOURCE -isystem =/usr/include -isystem =/usr/local/include -isystem =/usr/include/aarch64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_06fcf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/ccZ5CiHv.s
+COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_a4498.dir/'
+ /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/cc1plus -quiet -v -isysroot /home/niklas/haflinger/rpi-sysroot -D_GNU_SOURCE -isystem =/usr/include -isystem =/usr/local/include -isystem =/usr/include/aarch64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a4498.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/ccBpSoSD.s
 GNU C++17 (GCC) version 12.2.0 (aarch64-linux-gnu)
 	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
 
@@ -48,13 +48,13 @@ GNU C++17 (GCC) version 12.2.0 (aarch64-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 809b317fcadded3c4e0b10272d8526d0
-COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_06fcf.dir/'
- /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZ5CiHv.s
+COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_a4498.dir/'
+ /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccBpSoSD.s
 GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils) 2.40
 COMPILER_PATH=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/bin/
 LIBRARY_PATH=/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/:/home/niklas/haflinger/rpi-sysroot/lib/:/home/niklas/haflinger/rpi-sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_06fcf
+COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_a4498
 Using built-in specs.
 COLLECT_GCC=/opt/cross-pi-gcc/bin/aarch64-linux-gnu-g++
 COLLECT_LTO_WRAPPER=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/lto-wrapper
@@ -65,9 +65,9 @@ Supported LTO compression algorithms: zlib
 gcc version 12.2.0 (GCC) 
 COMPILER_PATH=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/bin/
 LIBRARY_PATH=/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/:/home/niklas/haflinger/rpi-sysroot/lib/:/home/niklas/haflinger/rpi-sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'cmTC_06fcf' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_06fcf.'
- /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/collect2 -plugin /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccszWqWJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/niklas/haflinger/rpi-sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_06fcf /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crt1.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crti.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtbegin.o -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0 -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib -L/home/niklas/haflinger/rpi-sysroot/lib -L/home/niklas/haflinger/rpi-sysroot/usr/lib -O1 --hash-style=gnu --as-needed -rpath-link=/home/niklas/haflinger/rpi-sysroot/usr/lib/aarch64-linux-gnu -rpath-link=/home/niklas/qt6/pi/lib CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/niklas/haflinger/rpi-sysroot -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtend.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crtn.o
-COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'cmTC_06fcf' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_06fcf.'
+COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'cmTC_a4498' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_a4498.'
+ /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/collect2 -plugin /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0qCSm4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/niklas/haflinger/rpi-sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_a4498 /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crt1.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crti.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtbegin.o -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0 -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib -L/home/niklas/haflinger/rpi-sysroot/lib -L/home/niklas/haflinger/rpi-sysroot/usr/lib -O1 --hash-style=gnu --as-needed -rpath-link=/home/niklas/haflinger/rpi-sysroot/usr/lib/aarch64-linux-gnu -rpath-link=/home/niklas/qt6/pi/lib CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/niklas/haflinger/rpi-sysroot -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtend.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'cmTC_a4498' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_a4498.'
 
 
 
@@ -98,7 +98,7 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(aarch64-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/niklas/stromlinger/build/haflinger-Debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_06fcf && [1/2] Building CXX object CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [Run Build Command(s):/usr/bin/ninja cmTC_a4498 && [1/2] Building CXX object CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/cross-pi-gcc/bin/aarch64-linux-gnu-g++]
   ignore line: [Target: aarch64-linux-gnu]
@@ -106,8 +106,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 12.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_06fcf.dir/']
-  ignore line: [ /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/cc1plus -quiet -v -isysroot /home/niklas/haflinger/rpi-sysroot -D_GNU_SOURCE -isystem =/usr/include -isystem =/usr/local/include -isystem =/usr/include/aarch64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_06fcf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/ccZ5CiHv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_a4498.dir/']
+  ignore line: [ /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/cc1plus -quiet -v -isysroot /home/niklas/haflinger/rpi-sysroot -D_GNU_SOURCE -isystem =/usr/include -isystem =/usr/local/include -isystem =/usr/include/aarch64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_a4498.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -version -o /tmp/ccBpSoSD.s]
   ignore line: [GNU C++17 (GCC) version 12.2.0 (aarch64-linux-gnu)]
   ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
   ignore line: []
@@ -130,13 +130,13 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 809b317fcadded3c4e0b10272d8526d0]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_06fcf.dir/']
-  ignore line: [ /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZ5CiHv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_a4498.dir/']
+  ignore line: [ /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/bin/as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccBpSoSD.s]
   ignore line: [GNU assembler version 2.40 (aarch64-linux-gnu) using BFD version (GNU Binutils) 2.40]
   ignore line: [COMPILER_PATH=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/:/home/niklas/haflinger/rpi-sysroot/lib/:/home/niklas/haflinger/rpi-sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_06fcf]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_a4498]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/opt/cross-pi-gcc/bin/aarch64-linux-gnu-g++]
   ignore line: [COLLECT_LTO_WRAPPER=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/lto-wrapper]
@@ -147,13 +147,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 12.2.0 (GCC) ]
   ignore line: [COMPILER_PATH=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/bin/]
   ignore line: [LIBRARY_PATH=/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/../lib64/:/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/:/home/niklas/haflinger/rpi-sysroot/lib/:/home/niklas/haflinger/rpi-sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'cmTC_06fcf' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_06fcf.']
-  link line: [ /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/collect2 -plugin /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccszWqWJ.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/niklas/haflinger/rpi-sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_06fcf /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crt1.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crti.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtbegin.o -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0 -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib -L/home/niklas/haflinger/rpi-sysroot/lib -L/home/niklas/haflinger/rpi-sysroot/usr/lib -O1 --hash-style=gnu --as-needed -rpath-link=/home/niklas/haflinger/rpi-sysroot/usr/lib/aarch64-linux-gnu -rpath-link=/home/niklas/qt6/pi/lib CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/niklas/haflinger/rpi-sysroot -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtend.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/niklas/haflinger/rpi-sysroot' '-isystem' '=/usr/include' '-isystem' '=/usr/local/include' '-isystem' '=/usr/include/aarch64-linux-gnu' '-v' '-o' 'cmTC_a4498' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_a4498.']
+  link line: [ /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/collect2 -plugin /opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/liblto_plugin.so -plugin-opt=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc0qCSm4.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/niklas/haflinger/rpi-sysroot --eh-frame-hdr -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -o cmTC_a4498 /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crt1.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crti.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtbegin.o -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0 -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/../lib64 -L/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib -L/home/niklas/haflinger/rpi-sysroot/lib -L/home/niklas/haflinger/rpi-sysroot/usr/lib -O1 --hash-style=gnu --as-needed -rpath-link=/home/niklas/haflinger/rpi-sysroot/usr/lib/aarch64-linux-gnu -rpath-link=/home/niklas/qt6/pi/lib CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/niklas/haflinger/rpi-sysroot -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtend.o /opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crtn.o]
     arg [/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/opt/cross-pi-gcc/libexec/gcc/aarch64-linux-gnu/12.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccszWqWJ.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc0qCSm4.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -167,7 +167,7 @@ Parsed CXX implicit link information from above output:
     arg [-EL] ==> ignore
     arg [-maarch64linux] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_06fcf] ==> ignore
+    arg [cmTC_a4498] ==> ignore
     arg [/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crt1.o] ==> obj [/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crt1.o]
     arg [/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crti.o] ==> obj [/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/../../../../aarch64-linux-gnu/lib/crti.o]
     arg [/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtbegin.o] ==> obj [/opt/cross-pi-gcc/lib/gcc/aarch64-linux-gnu/12.2.0/crtbegin.o]
@@ -181,7 +181,7 @@ Parsed CXX implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-rpath-link=/home/niklas/haflinger/rpi-sysroot/usr/lib/aarch64-linux-gnu] ==> ignore
     arg [-rpath-link=/home/niklas/qt6/pi/lib] ==> ignore
-    arg [CMakeFiles/cmTC_06fcf.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_a4498.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-rpath] ==> ignore
     arg [/home/niklas/haflinger/rpi-sysroot] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
@@ -210,16 +210,16 @@ Parsed CXX implicit link information from above output:
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/niklas/stromlinger/build/haflinger-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_95158 && [1/2] Building CXX object CMakeFiles/cmTC_95158.dir/CheckIncludeFile.cxx.o
-[2/2] Linking CXX executable cmTC_95158
+Run Build Command(s):/usr/bin/ninja cmTC_54cf2 && [1/2] Building CXX object CMakeFiles/cmTC_54cf2.dir/CheckIncludeFile.cxx.o
+[2/2] Linking CXX executable cmTC_54cf2
 
 
 
 Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
 Change Dir: /home/niklas/stromlinger/build/haflinger-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_a93b3 && [1/2] Building CXX object CMakeFiles/cmTC_a93b3.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_a93b3
+Run Build Command(s):/usr/bin/ninja cmTC_4b984 && [1/2] Building CXX object CMakeFiles/cmTC_4b984.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_4b984
 
 
 Source file was:
@@ -246,8 +246,8 @@ int main(void)
 Performing C++ SOURCE FILE Test HAVE_STDATOMIC succeeded with the following output:
 Change Dir: /home/niklas/stromlinger/build/haflinger-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_bf09d && [1/2] Building CXX object CMakeFiles/cmTC_bf09d.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_bf09d
+Run Build Command(s):/usr/bin/ninja cmTC_1c08b && [1/2] Building CXX object CMakeFiles/cmTC_1c08b.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_1c08b
 
 
 Source file was:
@@ -276,8 +276,8 @@ int main(int, char **)
 Performing C++ SOURCE FILE Test HAVE_EGL succeeded with the following output:
 Change Dir: /home/niklas/stromlinger/build/haflinger-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_c7bc4 && [1/2] Building CXX object CMakeFiles/cmTC_c7bc4.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_c7bc4
+Run Build Command(s):/usr/bin/ninja cmTC_46563 && [1/2] Building CXX object CMakeFiles/cmTC_46563.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_46563
 
 
 Source file was:
@@ -292,8 +292,8 @@ int main(int, char **) {
 Performing C++ SOURCE FILE Test HAVE_GLESv2 succeeded with the following output:
 Change Dir: /home/niklas/stromlinger/build/haflinger-Debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/ninja cmTC_367c8 && [1/2] Building CXX object CMakeFiles/cmTC_367c8.dir/src.cxx.o
-[2/2] Linking CXX executable cmTC_367c8
+Run Build Command(s):/usr/bin/ninja cmTC_acdd1 && [1/2] Building CXX object CMakeFiles/cmTC_acdd1.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_acdd1
 
 
 Source file was:

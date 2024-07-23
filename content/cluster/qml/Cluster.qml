@@ -70,9 +70,9 @@ Item {
         height: 630
         visible: true
         scale: 0.5
-        rangeDisplay: Data.Values.displayRange
-        litersDisplay: Data.Values.displayLiters
-        fuelFrame: Data.Values.liters
+        rangeText: Data.Values.rangeText
+        voltageText: Data.Values.voltageText
+        voltageDial: Data.Values.voltageDial
     }
 
     RpmDial {
@@ -82,8 +82,8 @@ Item {
         scale: 0.5
         x: -86
         y: 148
-        displayRpm: Data.Values.displayRpm
-        rpmFrame: Data.Values.rpm
+        rpmText: Data.Values.rpmText
+        rpmDial: Data.Values.rpmDial
     }
 
     FlipableItem {
@@ -97,9 +97,9 @@ Item {
         SpeedDial {
             x: 91
             y: 91
-            kplDisplay: Data.Values.displayKpl
-            kphDisplay: Data.Values.displayKph
-            kphFrame: Data.Values.kph
+            speedText: Data.Values.speedText
+            speedDial: Data.Values.speedDial
+            consumptionText: Data.Values.consumptionText
         }
 
         Image {
@@ -289,13 +289,6 @@ Item {
         }
     }
 
-    ProgressBar {
-        id: progressBar
-        x: 412
-        y: 370
-        value: 0.5
-    }
-
     states: [
         State {
             name: "bootState"
@@ -321,29 +314,7 @@ Item {
                 enabled: true
             }
 
-            PropertyChanges {
-                target: control
-                rotation: 104.968
-            }
 
-            PropertyChanges {
-                target: button
-                x: 114
-                y: 189
-                width: 108
-                height: 52
-                text: qsTr("Light")
-                highlighted: false
-            }
-
-            PropertyChanges {
-                target: progressBar
-                x: 430
-                y: 218
-                width: 165
-                height: 18
-                value: Data.Values.throttle
-            }
         }
     ]
 }

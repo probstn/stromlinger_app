@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/">
-    <file alias="/qt/qml/Main">/home/niklas/stromlinger/build/haflinger-Release/qml/Main</file>
-
-  </qresource>
-</RCC>

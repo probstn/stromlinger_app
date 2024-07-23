@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt-project.org/imports/QtQuick/Studio/Effects">
-    <file alias="qmldir">/home/niklas/stromlinger/build/haflinger-Release/qml/QtQuick/Studio/Effects/qmldir</file>
-  </qresource>
-</RCC>
-
