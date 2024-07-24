@@ -60,9 +60,9 @@ Item {
     height: 550
     visible: true
     clip: false
-    property alias rangeText: range_text.text
+    property alias ampText: amp_text.text
     property alias voltageText: voltage_text.text
-    property alias voltageDial: voltageTimeline.currentFrame
+    property alias ampDial: ampTimeline.currentFrame
 
     Item {
         id: item2
@@ -84,12 +84,12 @@ Item {
             y: 250
             Text {
                 id: voltage_text
-                x: -41
+                x: -42
                 y: -5
                 width: 210
                 height: 56
                 color: "#FFFFFF"
-                text: "200"
+                text: "80"
                 horizontalAlignment: Text.AlignHCenter
                 font.pixelSize: 41
                 font.family: "Cherry"
@@ -97,10 +97,10 @@ Item {
 
             Text {
                 id: kilometers_195_12
-                x: 22
+                x: 39
                 y: 47
                 color: "#FFFFFF"
-                text: "VOLTAGE"
+                text: "VOLT"
                 font.weight: Font.ExtraLight
                 font.pixelSize: 19
                 font.family: "IBM Plex Mono"
@@ -112,13 +112,13 @@ Item {
             x: 96
             y: 144
             Text {
-                id: range_text
+                id: amp_text
                 x: -66
                 y: 24
                 width: 208
                 height: 56
                 color: "#FFFFFF"
-                text: "20"
+                text: "100"
                 horizontalAlignment: Text.AlignHCenter
                 font.pixelSize: 41
                 font.family: "Cherry"
@@ -131,7 +131,7 @@ Item {
                 width: 69
                 height: 25
                 color: "#FFFFFF"
-                text: "KWH"
+                text: "AMP"
                 font.weight: Font.ExtraLight
                 font.pixelSize: 19
                 horizontalAlignment: Text.AlignHCenter
@@ -237,7 +237,7 @@ Item {
                 x: 51
                 y: 474
                 color: "#FFFFFF"
-                text: "10"
+                text: "50"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -248,7 +248,7 @@ Item {
                 x: 123
                 y: 472
                 color: "#FFFFFF"
-                text: "20"
+                text: "100"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -259,7 +259,7 @@ Item {
                 x: 197
                 y: 457
                 color: "#FFFFFF"
-                text: "30"
+                text: "150"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -270,7 +270,7 @@ Item {
                 x: 259
                 y: 418
                 color: "#FFFFFF"
-                text: "40"
+                text: "200"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -281,7 +281,7 @@ Item {
                 x: 311
                 y: 353
                 color: "#FFFFFF"
-                text: "50"
+                text: "250"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -292,7 +292,7 @@ Item {
                 x: 339
                 y: 278
                 color: "#FFFFFF"
-                text: "60"
+                text: "300"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -303,7 +303,7 @@ Item {
                 x: 346
                 y: 207
                 color: "#FFFFFF"
-                text: "70"
+                text: "350"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -314,7 +314,7 @@ Item {
                 x: 340
                 y: 137
                 color: "#FFFFFF"
-                text: "80"
+                text: "400"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -325,7 +325,7 @@ Item {
                 x: 320
                 y: 69
                 color: "#FFFFFF"
-                text: "90"
+                text: "450"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -336,7 +336,7 @@ Item {
                 x: 267
                 y: 3
                 color: "#FFFFFF"
-                text: "100"
+                text: "500"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -347,7 +347,7 @@ Item {
                 x: 198
                 y: -31
                 color: "#FFFFFF"
-                text: "110"
+                text: "550"
                 font.weight: Font.Thin
                 font.pixelSize: 29
                 font.family: "Exo 2"
@@ -410,7 +410,7 @@ Item {
     }
 
     Timeline {
-        id: voltageTimeline
+        id: ampTimeline
         animations: [
             TimelineAnimation {
                 id: timelineAnimation

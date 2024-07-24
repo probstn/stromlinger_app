@@ -19,8 +19,8 @@ Module {
         Property { name: "speedDial"; type: "double"; notify: "s_speedDial"; index: 3 }
         Property { name: "consumptionText"; type: "QString"; notify: "s_consumptionText"; index: 4 }
         Property { name: "voltageText"; type: "QString"; notify: "s_voltageText"; index: 5 }
-        Property { name: "voltageDial"; type: "double"; notify: "s_voltageDial"; index: 6 }
-        Property { name: "rangeText"; type: "QString"; notify: "s_rangeText"; index: 7 }
+        Property { name: "ampDial"; type: "double"; notify: "s_ampDial"; index: 6 }
+        Property { name: "ampText"; type: "QString"; notify: "s_ampText"; index: 7 }
         Property { name: "motorTemp"; type: "bool"; notify: "s_motorTemp"; index: 8 }
         Property { name: "escTemp"; type: "bool"; notify: "s_escTemp"; index: 9 }
         Property { name: "tireAngle"; type: "int"; notify: "s_tireAngle"; index: 10 }
@@ -32,15 +32,16 @@ Module {
         Signal { name: "s_kphDial" }
         Signal { name: "s_consumptionText" }
         Signal { name: "s_voltageText" }
-        Signal { name: "s_voltageDial" }
-        Signal { name: "s_rangeText" }
+        Signal { name: "s_ampDial" }
+        Signal { name: "s_ampText" }
         Signal { name: "s_motorTemp" }
         Signal { name: "s_escTemp" }
         Signal { name: "s_tireAngle" }
         Method { name: "demoSlot" }
         Method {
             name: "processPacket"
-            Parameter { name: "packet"; type: "QByteArray" }
+            Parameter { name: "packet"; type: "quint8"; isPointer: true }
+            Parameter { name: "length"; type: "quint8" }
         }
         Method {
             name: "writeSerialData"

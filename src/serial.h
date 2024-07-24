@@ -15,10 +15,9 @@ public:
     bool openSerialPort();
     void closeSerialPort();
     void writeData(const QByteArray &data);
-    QByteArray readPacket();
 
 signals:
-    void packetReceived(const QByteArray &data);
+    void packetReceived(uint8_t* data, uint8_t length);
 
 private slots:
     void dataReady();

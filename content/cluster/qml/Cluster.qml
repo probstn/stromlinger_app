@@ -70,9 +70,9 @@ Item {
         height: 630
         visible: true
         scale: 0.5
-        rangeText: Data.Values.rangeText
+        ampText: Data.Values.ampText
         voltageText: Data.Values.voltageText
-        voltageDial: Data.Values.voltageDial
+        ampDial: Data.Values.ampDial * 2
     }
 
     RpmDial {
@@ -83,7 +83,7 @@ Item {
         x: -86
         y: 148
         rpmText: Data.Values.rpmText
-        rpmDial: Data.Values.rpmDial
+        rpmDial: Data.Values.rpmDial / 10
     }
 
     FlipableItem {
@@ -98,7 +98,7 @@ Item {
             x: 91
             y: 91
             speedText: Data.Values.speedText
-            speedDial: Data.Values.speedDial
+            speedDial: Data.Values.speedDial*2 //*2 to match frames of dial
             consumptionText: Data.Values.consumptionText
         }
 

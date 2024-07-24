@@ -58,11 +58,11 @@ QtObject {
     property string rpmText: backend.rpmText
     property real rpmDial: backend.rpmDial
     property string speedText: backend.speedText
-    property real speedDial: backend.speedText
+    property real speedDial: backend.speedDial
     property string consumptionText: backend.consumptionText
     property string voltageText: backend.voltageText
-    property real voltageDial: backend.voltageDial
-    property string rangeText: backend.rangeText
+    property real ampDial: backend.ampDial
+    property string ampText: backend.ampText
     property bool motorTemp: backend.motorTemp
     property bool escTemp: backend.escTemp
     property int tireAngle: backend.tireAngle

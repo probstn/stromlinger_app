@@ -53,33 +53,34 @@ enum ESC2 {
 
 enum ESC3 {
     SPEED = 3,
+    TIREANGLE,
 };
 
-void Backend::processPacket(const QByteArray &packet)
+void Backend::processPacket(uint8_t* packet, uint8_t length)
 {
     if(packet[1] == 0x00) {
-        //qDebug() << "Got message 1";
-        //m_displayRpm = m_rpm = ((packet[MSB_RPM] << 8) | packet[LSB_RPM]);
-        //m_voltage = ((packet[MSB_VBAT] << 8) | packet[LSB_VBAT]);
+        m_rpmDial = (packet[MSB_RPM] << 8) | packet[LSB_RPM];
+        emit s_rpmDial();
+        m_rpmText = QString::number((packet[MSB_RPM] << 8) | packet[LSB_RPM]);
+        emit s_rpmText();
+        m_voltageText = QString::number((packet[MSB_VBAT] << 8) | packet[LSB_VBAT]);
+        emit s_voltageText();
+        m_ampText = QString::number((packet[MSB_MOTORCURR] << 8) | packet[LSB_MOTORCURR]);
+        emit s_ampText();
+        m_ampDial = (packet[MSB_MOTORCURR] << 8) | packet[LSB_MOTORCURR];
+        emit s_ampDial();
     } else if(packet[1] == 0x01) {
         //qDebug() << "Got message 2";
 
     } else if(packet[1] == 0x02) {
         //qDebug() << "Got message 3";
-        //m_displayKph = m_kph = packet[SPEED];
+        m_speedDial = packet[SPEED];
+        emit s_speedDial();
+        m_speedText = QString::number(packet[SPEED]);
+        emit s_speedText();
+        m_tireAngle = packet[TIREANGLE] - 45;
+        emit s_tireAngle();
     }
-
-    // Handle the received data (e.g., update UI or process commands)
-    emit s_kphText();
-    emit s_rpmText();
-
-    //updateTireAngle(50-receivedData.toInt());
-    /*
-    speed
-    motor_rpm
-    voltage
-    ah
-    */
 }
 
 void Backend::sendLeft()

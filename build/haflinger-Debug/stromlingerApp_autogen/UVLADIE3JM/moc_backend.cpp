@@ -49,14 +49,17 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "s_kphDial",
     "s_consumptionText",
     "s_voltageText",
-    "s_voltageDial",
-    "s_rangeText",
+    "s_ampDial",
+    "s_ampText",
     "s_motorTemp",
     "s_escTemp",
     "s_tireAngle",
     "demoSlot",
     "processPacket",
+    "uint8_t*",
     "packet",
+    "uint8_t",
+    "length",
     "writeSerialData",
     "data",
     "sendLeft",
@@ -68,8 +71,8 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "speedDial",
     "consumptionText",
     "voltageText",
-    "voltageDial",
-    "rangeText",
+    "ampDial",
+    "ampText",
     "motorTemp",
     "escTemp",
     "tireAngle"
@@ -86,7 +89,7 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
        0,       // classname
        1,   14, // classinfo
       19,   16, // methods
-      11,  153, // properties
+      11,  155, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
@@ -112,13 +115,13 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
       17,    0,  143,    4, 0x0a,   25 /* Public */,
-      18,    1,  144,    4, 0x0a,   26 /* Public */,
+      18,    2,  144,    4, 0x0a,   26 /* Public */,
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-      20,    1,  147,    4, 0x02,   28 /* Public */,
-      22,    0,  150,    4, 0x02,   30 /* Public */,
-      23,    0,  151,    4, 0x02,   31 /* Public */,
-      24,    0,  152,    4, 0x02,   32 /* Public */,
+      23,    1,  149,    4, 0x02,   29 /* Public */,
+      25,    0,  152,    4, 0x02,   31 /* Public */,
+      26,    0,  153,    4, 0x02,   32 /* Public */,
+      27,    0,  154,    4, 0x02,   33 /* Public */,
 
  // signals: parameters
     QMetaType::Void,
@@ -137,26 +140,26 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void, QMetaType::QByteArray,   19,
+    QMetaType::Void, 0x80000000 | 19, 0x80000000 | 21,   20,   22,
 
  // methods: parameters
-    QMetaType::Void, QMetaType::QString,   21,
+    QMetaType::Void, QMetaType::QString,   24,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
 
  // properties: name, type, flags
-      25, QMetaType::QString, 0x00015003, uint(0), 0,
-      26, QMetaType::Double, 0x00015003, uint(1), 0,
-      27, QMetaType::QString, 0x00015003, uint(2), 0,
-      28, QMetaType::Double, 0x00015003, uint(3), 0,
-      29, QMetaType::QString, 0x00015003, uint(6), 0,
-      30, QMetaType::QString, 0x00015003, uint(7), 0,
-      31, QMetaType::Double, 0x00015003, uint(8), 0,
-      32, QMetaType::QString, 0x00015003, uint(9), 0,
-      33, QMetaType::Bool, 0x00015003, uint(10), 0,
-      34, QMetaType::Bool, 0x00015003, uint(11), 0,
-      35, QMetaType::Int, 0x00015003, uint(12), 0,
+      28, QMetaType::QString, 0x00015003, uint(0), 0,
+      29, QMetaType::Double, 0x00015003, uint(1), 0,
+      30, QMetaType::QString, 0x00015003, uint(2), 0,
+      31, QMetaType::Double, 0x00015003, uint(3), 0,
+      32, QMetaType::QString, 0x00015003, uint(6), 0,
+      33, QMetaType::QString, 0x00015003, uint(7), 0,
+      34, QMetaType::Double, 0x00015003, uint(8), 0,
+      35, QMetaType::QString, 0x00015003, uint(9), 0,
+      36, QMetaType::Bool, 0x00015003, uint(10), 0,
+      37, QMetaType::Bool, 0x00015003, uint(11), 0,
+      38, QMetaType::Int, 0x00015003, uint(12), 0,
 
        0        // eod
 };
@@ -180,9 +183,9 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         QString,
         // property 'voltageText'
         QString,
-        // property 'voltageDial'
+        // property 'ampDial'
         double,
-        // property 'rangeText'
+        // property 'ampText'
         QString,
         // property 'motorTemp'
         bool,
@@ -208,9 +211,9 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         void,
         // method 's_voltageText'
         void,
-        // method 's_voltageDial'
+        // method 's_ampDial'
         void,
-        // method 's_rangeText'
+        // method 's_ampText'
         void,
         // method 's_motorTemp'
         void,
@@ -222,7 +225,8 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         void,
         // method 'processPacket'
         void,
-        const QByteArray &,
+        uint8_t *,
+        uint8_t,
         // method 'writeSerialData'
         void,
         const QString &,
@@ -250,13 +254,13 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 5: _t->s_kphDial(); break;
         case 6: _t->s_consumptionText(); break;
         case 7: _t->s_voltageText(); break;
-        case 8: _t->s_voltageDial(); break;
-        case 9: _t->s_rangeText(); break;
+        case 8: _t->s_ampDial(); break;
+        case 9: _t->s_ampText(); break;
         case 10: _t->s_motorTemp(); break;
         case 11: _t->s_escTemp(); break;
         case 12: _t->s_tireAngle(); break;
         case 13: _t->demoSlot(); break;
-        case 14: _t->processPacket((*reinterpret_cast< std::add_pointer_t<QByteArray>>(_a[1]))); break;
+        case 14: _t->processPacket((*reinterpret_cast< std::add_pointer_t<uint8_t*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<uint8_t>>(_a[2]))); break;
         case 15: _t->writeSerialData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
         case 16: _t->sendLeft(); break;
         case 17: _t->sendRight(); break;
@@ -323,14 +327,14 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_voltageDial; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_ampDial; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 8;
                 return;
             }
         }
         {
             using _t = void (Backend::*)();
-            if (_t _q_method = &Backend::s_rangeText; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+            if (_t _q_method = &Backend::s_ampText; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
                 *result = 9;
                 return;
             }
@@ -367,8 +371,8 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 3: *reinterpret_cast< double*>(_v) = _t->m_speedDial; break;
         case 4: *reinterpret_cast< QString*>(_v) = _t->m_consumptionText; break;
         case 5: *reinterpret_cast< QString*>(_v) = _t->m_voltageText; break;
-        case 6: *reinterpret_cast< double*>(_v) = _t->m_voltageDial; break;
-        case 7: *reinterpret_cast< QString*>(_v) = _t->m_rangeText; break;
+        case 6: *reinterpret_cast< double*>(_v) = _t->m_ampDial; break;
+        case 7: *reinterpret_cast< QString*>(_v) = _t->m_ampText; break;
         case 8: *reinterpret_cast< bool*>(_v) = _t->m_motorTemp; break;
         case 9: *reinterpret_cast< bool*>(_v) = _t->m_escTemp; break;
         case 10: *reinterpret_cast< int*>(_v) = _t->m_tireAngle; break;
@@ -416,15 +420,15 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
             }
             break;
         case 6:
-            if (_t->m_voltageDial != *reinterpret_cast< double*>(_v)) {
-                _t->m_voltageDial = *reinterpret_cast< double*>(_v);
-                Q_EMIT _t->s_voltageDial();
+            if (_t->m_ampDial != *reinterpret_cast< double*>(_v)) {
+                _t->m_ampDial = *reinterpret_cast< double*>(_v);
+                Q_EMIT _t->s_ampDial();
             }
             break;
         case 7:
-            if (_t->m_rangeText != *reinterpret_cast< QString*>(_v)) {
-                _t->m_rangeText = *reinterpret_cast< QString*>(_v);
-                Q_EMIT _t->s_rangeText();
+            if (_t->m_ampText != *reinterpret_cast< QString*>(_v)) {
+                _t->m_ampText = *reinterpret_cast< QString*>(_v);
+                Q_EMIT _t->s_ampText();
             }
             break;
         case 8:
@@ -536,13 +540,13 @@ void Backend::s_voltageText()
 }
 
 // SIGNAL 8
-void Backend::s_voltageDial()
+void Backend::s_ampDial()
 {
     QMetaObject::activate(this, &staticMetaObject, 8, nullptr);
 }
 
 // SIGNAL 9
-void Backend::s_rangeText()
+void Backend::s_ampText()
 {
     QMetaObject::activate(this, &staticMetaObject, 9, nullptr);
 }

@@ -128,9 +128,9 @@
                         "designable": true,
                         "final": false,
                         "index": 6,
-                        "member": "m_voltageDial",
-                        "name": "voltageDial",
-                        "notify": "s_voltageDial",
+                        "member": "m_ampDial",
+                        "name": "ampDial",
+                        "notify": "s_ampDial",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
@@ -142,9 +142,9 @@
                         "designable": true,
                         "final": false,
                         "index": 7,
-                        "member": "m_rangeText",
-                        "name": "rangeText",
-                        "notify": "s_rangeText",
+                        "member": "m_ampText",
+                        "name": "ampText",
+                        "notify": "s_ampText",
                         "required": false,
                         "scriptable": true,
                         "stored": true,
@@ -238,12 +238,12 @@
                     },
                     {
                         "access": "public",
-                        "name": "s_voltageDial",
+                        "name": "s_ampDial",
                         "returnType": "void"
                     },
                     {
                         "access": "public",
-                        "name": "s_rangeText",
+                        "name": "s_ampText",
                         "returnType": "void"
                     },
                     {
@@ -273,7 +273,11 @@
                         "arguments": [
                             {
                                 "name": "packet",
-                                "type": "QByteArray"
+                                "type": "uint8_t*"
+                            },
+                            {
+                                "name": "length",
+                                "type": "uint8_t"
                             }
                         ],
                         "name": "processPacket",
@@ -303,7 +307,11 @@
                         "arguments": [
                             {
                                 "name": "data",
-                                "type": "QByteArray"
+                                "type": "uint8_t*"
+                            },
+                            {
+                                "name": "length",
+                                "type": "uint8_t"
                             }
                         ],
                         "name": "packetReceived",

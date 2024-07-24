@@ -15,7 +15,6 @@ Serial::~Serial()
 
 bool Serial::openSerialPort()
 {
-
     /*
     qDebug() << "Number of available ports: " << QSerialPortInfo::availablePorts().length();
     foreach(const QSerialPortInfo &serialPortInfo, QSerialPortInfo::availablePorts()){
@@ -98,7 +97,8 @@ enum packetState {
 
 packetState state;
 
-QByteArray Serial::readPacket() {
+void Serial::dataReady()
+{
     QByteArray buffer;
 
     if (m_serialPort->isReadable()) {
@@ -137,22 +137,13 @@ QByteArray Serial::readPacket() {
                 uint16_t packetReceivedChecksum = ((packet[CRC_MSB] << 8) | packet[CRC_LSB]);
                 //qDebug() << packet[CRC_MSB] << packet[CRC_LSB] << ((checksum >> 8) & 0xFF) << (checksum & 0xFF);
                 if(packetCalculatedChecksum == packetReceivedChecksum) {
-                    return packet;
+                    emit packetReceived(packet, packet[LENGTH]);
                 }
-            }        
+            }
         }
     } else {
         qDebug() << "Serial port is not readable.";
     }
-
-    return 0;  // Return 0 meaning data is not ready yet
-}
-
-
-void Serial::dataReady()
-{
-    QByteArray data = readPacket();
-    if(data.size() != 0) emit packetReceived(data); //execute only with valid packet
 }
 
 // Function to calculate CRC16-CCITT
