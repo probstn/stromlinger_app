@@ -65,7 +65,7 @@ private:
     bool m_motorTemp = 000;
     bool m_escTemp = 000;
     int m_tireAngle = 000;
-    int m_errorCode = 1;
+    int m_errorCode = 8; //show uart error on start until message received
 
     Serial *m_serial; // Serial communication object
 };

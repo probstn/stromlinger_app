@@ -19,7 +19,7 @@ Item {
         ListElement { code: "ERR0"; bit: 0; name: "Identification error"; description: "The operation of Identification Angle failed. Please try to do it again according to the instruction of how to use Identification function from our website. It can be downloaded for free." }
         ListElement { code: "ERR1"; bit: 1; name: "Over voltage"; description: "Battery voltage is too high for the controller. Check battery volts and configuration." }
         ListElement { code: "ERR2"; bit: 2; name: "Low voltage"; description: "Check battery volts and configuration. Battery voltage is too low for the controller. Battery voltage is lower than the Under voltage setting. Charge the battery if necessary." }
-        ListElement { code: "ERR3"; bit: 3; name: "reserved"; description: "" }
+        ListElement { code: "ERR3"; bit: 3; name: "UART error"; description: "No data received over UART" }
         ListElement { code: "ERR4"; bit: 4; name: "stall"; description: "The motor still can’t provide speed feedback after controller outputs command for 2 seconds. It could be related with the problem of speed sensors or phase wires." }
         ListElement { code: "ERR5"; bit: 5; name: "Internal volts fault"; description: "Measure that B+ & PWR are correct when measured to B- or RTN. There may be excessive load on the +5V supply caused by too low a value of Regen or throttle potentiometers or incorrect wiring. Controller is damaged. Contact Kelly for warranty repairing." }
         ListElement { code: "ERR6"; bit: 6; name: "Over temperature"; description: "The controller temperature has exceeded 100℃. The controller will be stopped but will restart when temperature falls below 80℃." }
@@ -39,13 +39,12 @@ Item {
         anchors.fill: parent
         anchors.leftMargin: 63
         anchors.rightMargin: 66
-        anchors.topMargin: 52
+        anchors.topMargin: 128
         anchors.bottomMargin: 52
-        model: errorModel
+        model: sortedErrorModel
         delegate: Item {
             width: Constants.width
             height: 150
-            visible: (Data.Values.errorCode & (1 << model.bit)) !== 0
 
             Column {
                 spacing: 1
@@ -69,5 +68,28 @@ Item {
                 }
             }
         }
+    }
+
+    ListModel {
+        id: sortedErrorModel
+    }
+
+    Component.onCompleted: {
+        updateSortedErrorModel()
+    }
+
+    function updateSortedErrorModel() {
+        sortedErrorModel.clear()
+        for (let i = 0; i < errorModel.count; i++) {
+            let error = errorModel.get(i)
+            if ((Data.Values.errorCode & (1 << error.bit)) !== 0) {
+                sortedErrorModel.append(error)
+            }
+        }
+    }
+
+    Connections {
+        target: Data.Values
+        onErrorCodeChanged: updateSortedErrorModel()
     }
 }
