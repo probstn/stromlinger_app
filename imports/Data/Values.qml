@@ -66,6 +66,7 @@ QtObject {
     property bool motorTemp: backend.motorTemp
     property bool escTemp: backend.escTemp
     property int tireAngle: backend.tireAngle
+    property int errorCode: backend.errorCode
 
     property bool booting: true
     readonly property real bootDuration: 5000

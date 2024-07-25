@@ -8,7 +8,7 @@
     <file alias="cluster/qml/RpmDial.ui.qml">/home/niklas/stromlinger/content/cluster/qml/RpmDial.ui.qml</file>
     <file alias="cluster/qml/SpeedDial.ui.qml">/home/niklas/stromlinger/content/cluster/qml/SpeedDial.ui.qml</file>
     <file alias="cluster/qml/Tires.qml">/home/niklas/stromlinger/content/cluster/qml/Tires.qml</file>
-    <file alias="error/qml/Error.ui.qml">/home/niklas/stromlinger/content/error/qml/Error.ui.qml</file>
+    <file alias="error/qml/Error.qml">/home/niklas/stromlinger/content/error/qml/Error.qml</file>
     <file alias="cluster/assets/lowlight.png">/home/niklas/stromlinger/content/cluster/assets/lowlight.png</file>
     <file alias="cluster/assets/arc_background_track_195_6.png">/home/niklas/stromlinger/content/cluster/assets/arc_background_track_195_6.png</file>
     <file alias="cluster/assets/arc_gauge_display_195_7.png">/home/niklas/stromlinger/content/cluster/assets/arc_gauge_display_195_7.png</file>

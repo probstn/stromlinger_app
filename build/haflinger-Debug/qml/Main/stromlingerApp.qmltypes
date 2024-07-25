@@ -24,6 +24,7 @@ Module {
         Property { name: "motorTemp"; type: "bool"; notify: "s_motorTemp"; index: 8 }
         Property { name: "escTemp"; type: "bool"; notify: "s_escTemp"; index: 9 }
         Property { name: "tireAngle"; type: "int"; notify: "s_tireAngle"; index: 10 }
+        Property { name: "errorCode"; type: "int"; notify: "s_errorCode"; index: 11 }
         Signal { name: "s_rpmText" }
         Signal { name: "s_rpmDial" }
         Signal { name: "s_speedText" }
@@ -37,6 +38,7 @@ Module {
         Signal { name: "s_motorTemp" }
         Signal { name: "s_escTemp" }
         Signal { name: "s_tireAngle" }
+        Signal { name: "s_errorCode" }
         Method { name: "demoSlot" }
         Method {
             name: "processPacket"

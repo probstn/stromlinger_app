@@ -15,7 +15,7 @@ qt6_add_qml_module(content
         cluster/qml/RpmDial.ui.qml
         cluster/qml/SpeedDial.ui.qml
         cluster/qml/Tires.qml
-        error/qml/Error.ui.qml
+        error/qml/Error.qml
     RESOURCES
         cluster/assets/lowlight.png
         cluster/assets/arc_background_track_195_6.png

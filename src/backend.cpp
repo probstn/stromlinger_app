@@ -69,6 +69,8 @@ void Backend::processPacket(uint8_t* packet, uint8_t length)
         emit s_ampText();
         m_ampDial = (packet[MSB_MOTORCURR] << 8) | packet[LSB_MOTORCURR];
         emit s_ampDial();
+        m_errorCode = (packet[MSB_ERROR] << 8 | packet[LSB_ERROR]);
+        emit s_errorCode();
     } else if(packet[1] == 0x01) {
         //qDebug() << "Got message 2";
 

@@ -23,6 +23,7 @@ class Backend : public QObject
     Q_PROPERTY(bool motorTemp MEMBER m_motorTemp NOTIFY s_motorTemp)
     Q_PROPERTY(bool escTemp MEMBER m_escTemp NOTIFY s_escTemp)
     Q_PROPERTY(int tireAngle MEMBER m_tireAngle NOTIFY s_tireAngle)
+    Q_PROPERTY(int errorCode MEMBER m_errorCode NOTIFY s_errorCode)
 
 public:
     explicit Backend(QObject *parent = nullptr);
@@ -50,6 +51,7 @@ signals:
     void s_motorTemp();
     void s_escTemp();
     void s_tireAngle();
+    void s_errorCode();
 
 private:
     QString m_rpmText = "0000";
@@ -63,6 +65,7 @@ private:
     bool m_motorTemp = 000;
     bool m_escTemp = 000;
     int m_tireAngle = 000;
+    int m_errorCode = 1;
 
     Serial *m_serial; // Serial communication object
 };

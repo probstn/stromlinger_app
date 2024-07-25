@@ -7,6 +7,7 @@ import "./cluster/qml"
 import "./error/qml"
 import QtQuick.Controls 6.2
 import QtQuick.Layouts
+import Data 1.0 as Data
 
 Window {
     width: Constants.width
@@ -43,6 +44,7 @@ Window {
         y: 0
         width: 329
         height: 100
+        visible: Data.Values.errorCode
         onClicked: {
             swipeView.setCurrentIndex(0)
         }

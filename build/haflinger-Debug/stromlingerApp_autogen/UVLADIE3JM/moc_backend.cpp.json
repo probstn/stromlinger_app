@@ -191,6 +191,20 @@
                     "stored": true,
                     "type": "int",
                     "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 11,
+                    "member": "m_errorCode",
+                    "name": "errorCode",
+                    "notify": "s_errorCode",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
                 }
             ],
             "qualifiedClassName": "Backend",
@@ -258,6 +272,11 @@
                 {
                     "access": "public",
                     "name": "s_tireAngle",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "s_errorCode",
                     "returnType": "void"
                 }
             ],

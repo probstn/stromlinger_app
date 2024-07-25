@@ -54,6 +54,7 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "s_motorTemp",
     "s_escTemp",
     "s_tireAngle",
+    "s_errorCode",
     "demoSlot",
     "processPacket",
     "uint8_t*",
@@ -75,7 +76,8 @@ constexpr auto qt_meta_stringdata_CLASSBackendENDCLASS = QtMocHelpers::stringDat
     "ampText",
     "motorTemp",
     "escTemp",
-    "tireAngle"
+    "tireAngle",
+    "errorCode"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -88,42 +90,44 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
       12,       // revision
        0,       // classname
        1,   14, // classinfo
-      19,   16, // methods
-      11,  155, // properties
+      20,   16, // methods
+      12,  162, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-      13,       // signalCount
+      14,       // signalCount
 
  // classinfo: key, value
        1,    2,
 
  // signals: name, argc, parameters, tag, flags, initial metatype offsets
-       3,    0,  130,    4, 0x06,   12 /* Public */,
-       5,    0,  131,    4, 0x06,   13 /* Public */,
-       6,    0,  132,    4, 0x06,   14 /* Public */,
-       7,    0,  133,    4, 0x06,   15 /* Public */,
-       8,    0,  134,    4, 0x06,   16 /* Public */,
-       9,    0,  135,    4, 0x06,   17 /* Public */,
-      10,    0,  136,    4, 0x06,   18 /* Public */,
-      11,    0,  137,    4, 0x06,   19 /* Public */,
-      12,    0,  138,    4, 0x06,   20 /* Public */,
-      13,    0,  139,    4, 0x06,   21 /* Public */,
-      14,    0,  140,    4, 0x06,   22 /* Public */,
-      15,    0,  141,    4, 0x06,   23 /* Public */,
-      16,    0,  142,    4, 0x06,   24 /* Public */,
+       3,    0,  136,    4, 0x06,   13 /* Public */,
+       5,    0,  137,    4, 0x06,   14 /* Public */,
+       6,    0,  138,    4, 0x06,   15 /* Public */,
+       7,    0,  139,    4, 0x06,   16 /* Public */,
+       8,    0,  140,    4, 0x06,   17 /* Public */,
+       9,    0,  141,    4, 0x06,   18 /* Public */,
+      10,    0,  142,    4, 0x06,   19 /* Public */,
+      11,    0,  143,    4, 0x06,   20 /* Public */,
+      12,    0,  144,    4, 0x06,   21 /* Public */,
+      13,    0,  145,    4, 0x06,   22 /* Public */,
+      14,    0,  146,    4, 0x06,   23 /* Public */,
+      15,    0,  147,    4, 0x06,   24 /* Public */,
+      16,    0,  148,    4, 0x06,   25 /* Public */,
+      17,    0,  149,    4, 0x06,   26 /* Public */,
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-      17,    0,  143,    4, 0x0a,   25 /* Public */,
-      18,    2,  144,    4, 0x0a,   26 /* Public */,
+      18,    0,  150,    4, 0x0a,   27 /* Public */,
+      19,    2,  151,    4, 0x0a,   28 /* Public */,
 
  // methods: name, argc, parameters, tag, flags, initial metatype offsets
-      23,    1,  149,    4, 0x02,   29 /* Public */,
-      25,    0,  152,    4, 0x02,   31 /* Public */,
-      26,    0,  153,    4, 0x02,   32 /* Public */,
-      27,    0,  154,    4, 0x02,   33 /* Public */,
+      24,    1,  156,    4, 0x02,   31 /* Public */,
+      26,    0,  159,    4, 0x02,   33 /* Public */,
+      27,    0,  160,    4, 0x02,   34 /* Public */,
+      28,    0,  161,    4, 0x02,   35 /* Public */,
 
  // signals: parameters
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -140,26 +144,27 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSBackendENDCLASS[] = {
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 19, 0x80000000 | 21,   20,   22,
+    QMetaType::Void, 0x80000000 | 20, 0x80000000 | 22,   21,   23,
 
  // methods: parameters
-    QMetaType::Void, QMetaType::QString,   24,
+    QMetaType::Void, QMetaType::QString,   25,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
 
  // properties: name, type, flags
-      28, QMetaType::QString, 0x00015003, uint(0), 0,
-      29, QMetaType::Double, 0x00015003, uint(1), 0,
-      30, QMetaType::QString, 0x00015003, uint(2), 0,
-      31, QMetaType::Double, 0x00015003, uint(3), 0,
-      32, QMetaType::QString, 0x00015003, uint(6), 0,
-      33, QMetaType::QString, 0x00015003, uint(7), 0,
-      34, QMetaType::Double, 0x00015003, uint(8), 0,
-      35, QMetaType::QString, 0x00015003, uint(9), 0,
-      36, QMetaType::Bool, 0x00015003, uint(10), 0,
-      37, QMetaType::Bool, 0x00015003, uint(11), 0,
-      38, QMetaType::Int, 0x00015003, uint(12), 0,
+      29, QMetaType::QString, 0x00015003, uint(0), 0,
+      30, QMetaType::Double, 0x00015003, uint(1), 0,
+      31, QMetaType::QString, 0x00015003, uint(2), 0,
+      32, QMetaType::Double, 0x00015003, uint(3), 0,
+      33, QMetaType::QString, 0x00015003, uint(6), 0,
+      34, QMetaType::QString, 0x00015003, uint(7), 0,
+      35, QMetaType::Double, 0x00015003, uint(8), 0,
+      36, QMetaType::QString, 0x00015003, uint(9), 0,
+      37, QMetaType::Bool, 0x00015003, uint(10), 0,
+      38, QMetaType::Bool, 0x00015003, uint(11), 0,
+      39, QMetaType::Int, 0x00015003, uint(12), 0,
+      40, QMetaType::Int, 0x00015003, uint(13), 0,
 
        0        // eod
 };
@@ -193,6 +198,8 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         bool,
         // property 'tireAngle'
         int,
+        // property 'errorCode'
+        int,
         // Q_OBJECT / Q_GADGET
         Backend,
         // method 's_rpmText'
@@ -220,6 +227,8 @@ Q_CONSTINIT const QMetaObject Backend::staticMetaObject = { {
         // method 's_escTemp'
         void,
         // method 's_tireAngle'
+        void,
+        // method 's_errorCode'
         void,
         // method 'demoSlot'
         void,
@@ -259,12 +268,13 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 10: _t->s_motorTemp(); break;
         case 11: _t->s_escTemp(); break;
         case 12: _t->s_tireAngle(); break;
-        case 13: _t->demoSlot(); break;
-        case 14: _t->processPacket((*reinterpret_cast< std::add_pointer_t<uint8_t*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<uint8_t>>(_a[2]))); break;
-        case 15: _t->writeSerialData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
-        case 16: _t->sendLeft(); break;
-        case 17: _t->sendRight(); break;
-        case 18: _t->sendCenter(); break;
+        case 13: _t->s_errorCode(); break;
+        case 14: _t->demoSlot(); break;
+        case 15: _t->processPacket((*reinterpret_cast< std::add_pointer_t<uint8_t*>>(_a[1])),(*reinterpret_cast< std::add_pointer_t<uint8_t>>(_a[2]))); break;
+        case 16: _t->writeSerialData((*reinterpret_cast< std::add_pointer_t<QString>>(_a[1]))); break;
+        case 17: _t->sendLeft(); break;
+        case 18: _t->sendRight(); break;
+        case 19: _t->sendCenter(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -360,6 +370,13 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
                 return;
             }
         }
+        {
+            using _t = void (Backend::*)();
+            if (_t _q_method = &Backend::s_errorCode; *reinterpret_cast<_t *>(_a[1]) == _q_method) {
+                *result = 13;
+                return;
+            }
+        }
     } else if (_c == QMetaObject::ReadProperty) {
         auto *_t = static_cast<Backend *>(_o);
         (void)_t;
@@ -376,6 +393,7 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         case 8: *reinterpret_cast< bool*>(_v) = _t->m_motorTemp; break;
         case 9: *reinterpret_cast< bool*>(_v) = _t->m_escTemp; break;
         case 10: *reinterpret_cast< int*>(_v) = _t->m_tireAngle; break;
+        case 11: *reinterpret_cast< int*>(_v) = _t->m_errorCode; break;
         default: break;
         }
     } else if (_c == QMetaObject::WriteProperty) {
@@ -449,6 +467,12 @@ void Backend::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
                 Q_EMIT _t->s_tireAngle();
             }
             break;
+        case 11:
+            if (_t->m_errorCode != *reinterpret_cast< int*>(_v)) {
+                _t->m_errorCode = *reinterpret_cast< int*>(_v);
+                Q_EMIT _t->s_errorCode();
+            }
+            break;
         default: break;
         }
     } else if (_c == QMetaObject::ResetProperty) {
@@ -475,18 +499,18 @@ int Backend::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 19)
+        if (_id < 20)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 19;
+        _id -= 20;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 19)
+        if (_id < 20)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 19;
+        _id -= 20;
     }else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
             || _c == QMetaObject::ResetProperty || _c == QMetaObject::BindableProperty
             || _c == QMetaObject::RegisterPropertyMetaType) {
         qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 12;
     }
     return _id;
 }
@@ -567,5 +591,11 @@ void Backend::s_escTemp()
 void Backend::s_tireAngle()
 {
     QMetaObject::activate(this, &staticMetaObject, 12, nullptr);
+}
+
+// SIGNAL 13
+void Backend::s_errorCode()
+{
+    QMetaObject::activate(this, &staticMetaObject, 13, nullptr);
 }
 QT_WARNING_POP
