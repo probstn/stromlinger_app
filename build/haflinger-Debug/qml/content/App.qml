@@ -5,6 +5,7 @@ import QtQuick 6.2
 import stromlinger
 import "./cluster/qml"
 import "./error/qml"
+import "./maps/qml"
 import QtQuick.Controls 6.2
 import QtQuick.Layouts
 import Data 1.0 as Data
@@ -35,6 +36,9 @@ Window {
         Error {
         }
         Cluster {
+        }
+        Maps {
+
         }
     }
 

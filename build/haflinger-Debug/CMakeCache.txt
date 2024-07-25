@@ -456,11 +456,20 @@ Qt6Gui_DIR:PATH=/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui
 //The directory containing a CMake configuration file for Qt6HostInfo.
 Qt6HostInfo_DIR:PATH=/home/niklas/haflinger/qt-host/lib/cmake/Qt6HostInfo
 
+//The directory containing a CMake configuration file for Qt6Location.
+Qt6Location_DIR:PATH=/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location
+
 //The directory containing a CMake configuration file for Qt6Network.
 Qt6Network_DIR:PATH=/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network
 
 //The directory containing a CMake configuration file for Qt6OpenGL.
 Qt6OpenGL_DIR:PATH=/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL
+
+//The directory containing a CMake configuration file for Qt6PositioningQuick.
+Qt6PositioningQuick_DIR:PATH=/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6PositioningQuick
+
+//The directory containing a CMake configuration file for Qt6Positioning.
+Qt6Positioning_DIR:PATH=/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning
 
 //The directory containing a CMake configuration file for Qt6QmlBuiltins.
 Qt6QmlBuiltins_DIR:PATH=/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QmlBuiltins
@@ -479,6 +488,9 @@ Qt6QmlTools_DIR:PATH=/home/niklas/haflinger/qt-host/lib/cmake/Qt6QmlTools
 
 //The directory containing a CMake configuration file for Qt6Qml.
 Qt6Qml_DIR:PATH=/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml
+
+//The directory containing a CMake configuration file for Qt6QuickShapesPrivate.
+Qt6QuickShapesPrivate_DIR:PATH=/home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QuickShapesPrivate
 
 //The directory containing a CMake configuration file for Qt6QuickTools.
 Qt6QuickTools_DIR:PATH=/home/niklas/haflinger/qt-host/lib/cmake/Qt6QuickTools
@@ -988,6 +1000,8 @@ QT_FEATURE_graphicsframecapture:INTERNAL=OFF
 QT_FEATURE_gssapi:INTERNAL=OFF
 //Qt feature: gui (from target Qt6::Core)
 QT_FEATURE_gui:INTERNAL=ON
+//Qt feature: gypsy (from target Qt6::Positioning)
+QT_FEATURE_gypsy:INTERNAL=OFF
 //Qt feature: harfbuzz (from target Qt6::Gui)
 QT_FEATURE_harfbuzz:INTERNAL=ON
 //Qt feature: highdpiscaling (from target Qt6::Gui)
@@ -1437,6 +1451,8 @@ QT_FEATURE_whatsthis:INTERNAL=ON
 QT_FEATURE_wheelevent:INTERNAL=ON
 //Qt feature: widgets (from target Qt6::Core)
 QT_FEATURE_widgets:INTERNAL=ON
+//Qt feature: winrt_geolocation (from target Qt6::Positioning)
+QT_FEATURE_winrt_geolocation:INTERNAL=OFF
 //Qt feature: x86intrin (from target Qt6::Core)
 QT_FEATURE_x86intrin:INTERNAL=OFF
 //Qt feature: xcb (from target Qt6::Gui)

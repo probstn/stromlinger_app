@@ -13,4 +13,5 @@ RpmDial 1.0 cluster/qml/RpmDial.ui.qml
 SpeedDial 1.0 cluster/qml/SpeedDial.ui.qml
 Tires 1.0 cluster/qml/Tires.qml
 Error 1.0 error/qml/Error.qml
+Maps 1.0 maps/qml/Maps.qml
 

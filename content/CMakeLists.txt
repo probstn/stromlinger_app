@@ -16,6 +16,7 @@ qt6_add_qml_module(content
         cluster/qml/SpeedDial.ui.qml
         cluster/qml/Tires.qml
         error/qml/Error.qml
+        maps/qml/Maps.qml
     RESOURCES
         cluster/assets/lowlight.png
         cluster/assets/arc_background_track_195_6.png
@@ -38,4 +39,5 @@ qt6_add_qml_module(content
         cluster/assets/fuel_dial_195_43.png
         cluster/assets/Cluster_Art.png
         error.webp
+
 )

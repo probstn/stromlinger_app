@@ -7,7 +7,7 @@ project(stromlingerApp LANGUAGES CXX)
 
 set(CMAKE_AUTOMOC ON)
 
-find_package(Qt6 6.2 REQUIRED COMPONENTS Core Gui Qml Quick SerialPort)
+find_package(Qt6 6.2 REQUIRED COMPONENTS Core Gui Qml Quick SerialPort Location Positioning)
 
 if (Qt6_VERSION VERSION_GREATER_EQUAL 6.3)
     qt_standard_project_setup()

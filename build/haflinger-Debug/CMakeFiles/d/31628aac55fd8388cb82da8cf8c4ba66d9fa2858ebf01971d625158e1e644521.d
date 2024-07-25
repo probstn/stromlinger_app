@@ -610,6 +610,23 @@ stromlingerApp_autogen/timestamp: \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginConfig.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets-release.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Gui/Qt6QXdgDesktopPortalThemePluginTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6LocationAdditionalTargetInfo.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6LocationConfig.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6LocationConfigVersion.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6LocationConfigVersionImpl.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6LocationDependencies.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6LocationPlugins.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6LocationTargets-release.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6LocationTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6LocationVersionlessTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryItemsOverlayPluginAdditionalTargetInfo.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryItemsOverlayPluginConfig.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryItemsOverlayPluginTargets-release.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryItemsOverlayPluginTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryOsmPluginAdditionalTargetInfo.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryOsmPluginConfig.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryOsmPluginTargets-release.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Location/Qt6QGeoServiceProviderFactoryOsmPluginTargets.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
@@ -643,6 +660,35 @@ stromlingerApp_autogen/timestamp: \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-release.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6PositioningAdditionalTargetInfo.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6PositioningConfig.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6PositioningConfigVersion.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6PositioningConfigVersionImpl.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6PositioningDependencies.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6PositioningPlugins.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6PositioningTargets-release.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6PositioningTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6PositioningVersionlessTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryGeoclue2PluginAdditionalTargetInfo.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryGeoclue2PluginConfig.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryGeoclue2PluginTargets-release.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryGeoclue2PluginTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryNmeaPluginAdditionalTargetInfo.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryNmeaPluginConfig.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryNmeaPluginTargets-release.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryNmeaPluginTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryPollPluginAdditionalTargetInfo.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryPollPluginConfig.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryPollPluginTargets-release.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Positioning/Qt6QGeoPositionInfoSourceFactoryPollPluginTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickAdditionalTargetInfo.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickConfig.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickConfigVersion.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickConfigVersionImpl.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickDependencies.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickTargets-release.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6PositioningQuick/Qt6PositioningQuickVersionlessTargets.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginAdditionalTargetInfo.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginConfig.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Qml/QmlPlugins/Qt6DataVisualizationQmlpluginTargets-release.cmake \
@@ -1100,6 +1146,14 @@ stromlingerApp_autogen/timestamp: \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickTargets-release.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6Quick/Qt6QuickVersionlessTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateAdditionalTargetInfo.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateConfig.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateConfigVersion.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateConfigVersionImpl.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateDependencies.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateTargets-release.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateTargets.cmake \
+  /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6QuickShapesPrivate/Qt6QuickShapesPrivateVersionlessTargets.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortAdditionalTargetInfo.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortConfig.cmake \
   /home/niklas/haflinger/qt-raspi/lib/cmake/Qt6SerialPort/Qt6SerialPortConfigVersion.cmake \

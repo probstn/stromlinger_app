@@ -18,5 +18,6 @@
 /home/niklas/stromlinger/content/cluster/qml/SpeedDial.ui.qml
 /home/niklas/stromlinger/content/cluster/qml/Tires.qml
 /home/niklas/stromlinger/content/error/qml/Error.qml
+/home/niklas/stromlinger/content/maps/qml/Maps.qml
 --json
 /home/niklas/stromlinger/build/haflinger-Debug/content_qmllint.json

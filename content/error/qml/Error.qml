@@ -90,6 +90,9 @@ Item {
 
     Connections {
         target: Data.Values
-        onErrorCodeChanged: updateSortedErrorModel()
+        function onErrorCodeChanged() {
+            updateSortedErrorModel()
+        }
     }
+
 }
