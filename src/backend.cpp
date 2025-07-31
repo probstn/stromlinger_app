@@ -60,8 +60,9 @@ void Backend::processPacket(uint8_t* packet, uint8_t length)
 {
     if(packet[1] == 0x00) {
         m_rpmDial = (packet[MSB_RPM] << 8) | packet[LSB_RPM];
+        if(m_rpmDial < 30) m_rpmDial = 0;
         emit s_rpmDial();
-        m_rpmText = QString::number((packet[MSB_RPM] << 8) | packet[LSB_RPM]);
+        m_rpmText = QString::number(m_rpmDial);
         emit s_rpmText();
         m_voltageText = QString::number((packet[MSB_VBAT] << 8) | packet[LSB_VBAT]);
         emit s_voltageText();
@@ -69,10 +70,11 @@ void Backend::processPacket(uint8_t* packet, uint8_t length)
         emit s_ampText();
         m_ampDial = (packet[MSB_MOTORCURR] << 8) | packet[LSB_MOTORCURR];
         emit s_ampDial();
-        m_errorCode = 0xFFFF;
+        m_errorCode = (packet[MSB_ERROR] << 8) | packet[LSB_ERROR];
         emit s_errorCode();
     } else if(packet[1] == 0x01) {
         //qDebug() << "Got message 2";
+        //qDebug() << packet[CONTROLLER_TEMP] << packet[MOTOR_TEMP];
 
     } else if(packet[1] == 0x02) {
         //qDebug() << "Got message 3";

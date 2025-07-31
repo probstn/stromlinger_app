@@ -39,5 +39,6 @@ qt6_add_qml_module(content
         cluster/assets/fuel_dial_195_43.png
         cluster/assets/Cluster_Art.png
         error.webp
+        maps/assets/marker.png
 
 )

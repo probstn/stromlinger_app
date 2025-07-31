@@ -1,24 +1,30 @@
 import QtQuick 2.15
-import QtQuick.Controls 2.15
-import QtLocation 5.15
-import QtPositioning 5.15
+import QtLocation
+import QtPositioning
 import stromlinger
 
 Item {
     width: Constants.width
     height: Constants.height
-
     /*
-    Plugin {
-        id: mapPlugin
-        name: "osm" // OpenStreetMap plugin
-    }
-
     Map {
+        id: map
         anchors.fill: parent
-        plugin: mapPlugin
-        center: QtPositioning.coordinate(48.4995, 13.5653) // Coordinates for Esternberg
-        zoomLevel: 14
+        plugin: Plugin {
+            name: "osm" // OpenStreetMap plugin
+        }
+        center: QtPositioning.coordinate(37.7749, -122.4194) // Center on San Francisco
+        zoomLevel: 12
+
+        MapQuickItem {
+            anchorPoint.x: markerImage.width / 2
+            anchorPoint.y: markerImage.height
+            coordinate: QtPositioning.coordinate(37.7749, -122.4194)
+            sourceItem: Image {
+                id: markerImage
+                source: "marker.png"
+            }
+        }
     }
     */
 }

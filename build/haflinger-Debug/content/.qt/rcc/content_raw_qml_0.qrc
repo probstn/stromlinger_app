@@ -31,6 +31,7 @@
     <file alias="cluster/assets/fuel_dial_195_43.png">/home/niklas/stromlinger/content/cluster/assets/fuel_dial_195_43.png</file>
     <file alias="cluster/assets/Cluster_Art.png">/home/niklas/stromlinger/content/cluster/assets/Cluster_Art.png</file>
     <file alias="error.webp">/home/niklas/stromlinger/content/error.webp</file>
+    <file alias="maps/assets/marker.png">/home/niklas/stromlinger/content/maps/assets/marker.png</file>
   </qresource>
 </RCC>
 
